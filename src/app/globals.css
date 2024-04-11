@@ -1,33 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.background{
+  background-color:rgba(96, 158, 69, 1);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.f-back{
+  background-color: rgba(239, 104, 46, 1);
+  border-color: rgba(239, 104, 46, 1);
+  border: 6px;
+  border-radius: 50%;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.i-back{
+  border: 1px solid;
+  border-radius: 50%;
+  border-color: white;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.logo-f{
+  font-weight: 100;
+}
+.input-border{
+  border: 1px solid #EF682E33;
+  display: inline-block;
+  height: 50px;
+  border-radius: 8px;
 }
