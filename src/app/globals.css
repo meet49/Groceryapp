@@ -3,26 +3,105 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
-.background{
-  background-color:rgba(96, 158, 69, 1);
+.background {
+  background-color: rgba(96, 158, 69, 1);
 }
-.f-back{
+
+.f-back {
   background-color: rgba(239, 104, 46, 1);
   border-color: rgba(239, 104, 46, 1);
   border: 6px;
   border-radius: 50%;
+  cursor: pointer;
+
 }
-.i-back{
+
+.i-back {
   border: 1px solid;
   border-radius: 50%;
   border-color: white;
+  cursor: pointer;
+
 }
-.logo-f{
+
+.i-back:hover {
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: rgba(239, 104, 46, 1);
+  border-color: rgba(239, 104, 46, 1);
+  cursor: pointer;
+
+}
+
+.i-white {
+  border: 1px solid;
+  border-radius: 50%;
+  border-color: black;
+  cursor: pointer;
+
+}
+
+.i-white:hover {
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: rgba(239, 104, 46, 1);
+  border-color: rgba(239, 104, 46, 1);
+  cursor: pointer;
+
+}
+
+.logo-f {
   font-weight: 100;
 }
-.input-border{
+
+.input-border {
   border: 1px solid #EF682E33;
   display: inline-block;
   height: 50px;
   border-radius: 8px;
 }
+
+
+#secondDiv1 {
+  display: none;
+}
+
+#firstDiv1:hover {
+  display: none;
+}
+
+#firstDiv1:hover+#secondDiv1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #609E45;
+  
+}
+
+#secondDiv2 {
+  display: none;
+}
+
+#firstDiv2:hover {
+  display: none;
+}
+
+#firstDiv2:hover+#secondDiv2 {
+  display: flex;
+  
+}
+
+#secondDiv3 {
+  display: none;
+}
+
+#firstDiv3:hover {
+  display: none;
+}
+
+#firstDiv3:hover+#secondDiv3 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(239, 104, 46, 1);
+  
+}
+

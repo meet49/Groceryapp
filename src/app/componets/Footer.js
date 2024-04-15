@@ -76,32 +76,32 @@ function Footer() {
                         <p className="font-extrabold pb-2">_____</p>
                         <div className="flex flex-col gap-3">
                         <Link href="/">Homepage</Link>
-                        <Link href="/">About Us</Link>
-                        <Link href="/">Our Products</Link>
-                        <Link href="/">Our Testimonial</Link>
-                        <Link href="/">Our Blogs</Link>
+                        <Link href="/aboutus">About Us</Link>
+                        <Link href="/comingsoon">Our Products</Link>
+                        <Link href="/testimonial">Our Testimonial</Link>
+                        <Link href="/ourblog">Our Blogs</Link>
                         </div>
                     </div>
                     <div className="text-white">
                         <p className="font-bold text-2xl">Customer Support</p>
                         <p className="font-extrabold pb-2">_____</p>
                         <div className="flex flex-col gap-3">
-                        <Link href="/">Order</Link>
-                        <Link href="/">Track Your Order</Link>
-                        <Link href="/">Help & Support</Link>
-                        <Link href="/">Shipping & Delivery</Link>
-                        <Link href="/">Contact Us</Link>
+                        <Link href="/comingsoon">Order</Link>
+                        <Link href="/comingsoon">Track Your Order</Link>
+                        <Link href="/faq">Help & Support</Link>
+                        <Link href="/comingsoon">Shipping & Delivery</Link>
+                        <Link href="/contact">Contact Us</Link>
                         </div>
                     </div>
                     <div className="text-white">
                         <p className="font-bold text-2xl">Catogories</p>
                         <p className="font-extrabold pb-2">_____</p>
                         <div className="flex flex-col gap-3">
-                        <Link href="/">Fresh Vegetable</Link>
-                        <Link href="/">Fresh Fruits</Link>
-                        <Link href="/">Fresh Beverage</Link>
-                        <Link href="/">Fresh Backery Items</Link>
-                        <Link href="/">Netural Drinks</Link>
+                        <Link href="/comingsoon">Fresh Vegetable</Link>
+                        <Link href="/comingsoon">Fresh Fruits</Link>
+                        <Link href="/comingsoon">Fresh Beverage</Link>
+                        <Link href="/comingsoon">Fresh Backery Items</Link>
+                        <Link href="/comingsoon">Netural Drinks</Link>
                         </div>
                     </div>
                 </div>

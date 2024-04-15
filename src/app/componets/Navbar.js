@@ -43,7 +43,7 @@ const Navbar = () => {
             </div>
             <div className="bg-white mx-1 py-5 px-20 flex justify-between h-[82px]">
                 <div className="flex gap-3">
-                    <Image src={logo} />
+                    <Image src={logo} className="cursor-pointer"/>
                     <p className="font-poppins text-[#EF682E] text-[28px] font-[275]"><b className="text-[#609E45] font-[700]">Organic</b>Grocery</p>
                 </div>
                 <div className="input-border ml-28">
@@ -75,37 +75,37 @@ const Navbar = () => {
                             <Link href="/">Home</Link>
                         </li>
                         <li>
-                            <Link href="/">About Us</Link>
+                            <Link href="/aboutus">About Us</Link>
                         </li>
                         <li className="flex">
-                            <Link href="/">Shop</Link>
+                            <Link href="/comingsoon">Shop</Link>
                             <Image src={drop} className="h-5 mt-1"/>
                         </li>
                         <li className="flex">
-                            <Link href="/">Products</Link>
+                            <Link href="/comingsoon">Products</Link>
                             <Image src={drop} className="h-5 mt-1"/>
 
                         </li>
                         <li className="flex">
-                            <Link href="/">Pages</Link>
+                            <Link href="/comingsoon">Pages</Link>
                             <Image src={drop} className="h-5 mt-1"/>
 
                         </li>
                         <li>
-                            <Link href="/">Blogs</Link>
+                            <Link href="/ourblog">Blogs</Link>
                         </li>
                         <li>
-                            <Link href="/">Contact Us</Link>
+                            <Link href="/contact">Contact Us</Link>
                         </li>
                     </ul>
                 </div>
                 <div className="flex gap-5">
                     <div className="flex gap-1">
-                        <p className="mt-1">My Account</p>
+                        <p className="mt-1 cursor-pointer">My Account</p>
                         <Image src={drop} className="h-5 mt-2" />
                     </div>
-                    <Image src={wish} />
-                    <Image src={shop} />
+                    <Image src={wish} className="cursor-pointer" />
+                    <Image src={shop} className="cursor-pointer"  />
                 </div>
 
             </div>

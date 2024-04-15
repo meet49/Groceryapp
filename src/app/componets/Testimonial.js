@@ -30,7 +30,7 @@ export default function Testimonial() {
               </div>
             </div>
 
-            <div className='flex flex-col justify-around items-center text-center w-[381px] h-[451px] border-8 border-[#f7f0f0] rounded-md'>
+            <div className='flex flex-col justify-around items-center text-center w-[381px] h-[451px] border-8 border-[#f7f0f0] hover:border-[#609E45] rounded-md'>
               <Image src={t3} />
               <p className="w-[333px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized.</p>
               <Image src={t4} />
@@ -40,7 +40,7 @@ export default function Testimonial() {
               </div>
             </div>
 
-            <div className='flex flex-col justify-around items-center text-center w-[381px] h-[451px] border-8 border-[#f7f0f0] rounded-md'>
+            <div className='flex flex-col justify-around items-center text-center w-[381px] h-[451px] border-8 border-[#f7f0f0] hover:border-[#609E45] rounded-md'>
               <Image src={t3} />
               <p className="w-[333px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized.</p>
               <Image src={t5} />
