@@ -15,6 +15,12 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      rotate: {
+        '-360':'-360deg',
+        '-180': '-180deg',
+         '-90': '-90deg',
+        '-45': '-45deg',
+      }
     },
   },
   plugins: [],

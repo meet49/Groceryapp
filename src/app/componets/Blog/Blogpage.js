@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import Link from 'next/link'
 import blog1 from '@/app/assets/img/blog1.png'
 import blog2 from '@/app/assets/img/blog2.png'
 import blog3 from '@/app/assets/img/blog3.png'
@@ -30,7 +31,10 @@ function Blogpage() {
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
-            <Image src={icon} className="absolute top-32" />
+            <Link href="/blogdetail">
+              <Image src={icon} className="absolute top-32" />
+
+            </Link>
           </div>
         </div>
 

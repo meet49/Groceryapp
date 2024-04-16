@@ -43,7 +43,7 @@ const Navbar = () => {
             </div>
             <div className="bg-white mx-1 py-5 px-20 flex justify-between h-[82px]">
                 <div className="flex gap-3">
-                    <Image src={logo} className="cursor-pointer"/>
+                    <Image src={logo} className="cursor-pointer" />
                     <p className="font-poppins text-[#EF682E] text-[28px] font-[275]"><b className="text-[#609E45] font-[700]">Organic</b>Grocery</p>
                 </div>
                 <div className="input-border ml-28">
@@ -78,17 +78,17 @@ const Navbar = () => {
                             <Link href="/aboutus">About Us</Link>
                         </li>
                         <li className="flex">
-                            <Link href="/comingsoon">Shop</Link>
-                            <Image src={drop} className="h-5 mt-1"/>
+                            <Link href="/ourproducts">Shop</Link>
+                            <Image src={drop} className="h-5 mt-1" />
                         </li>
                         <li className="flex">
-                            <Link href="/comingsoon">Products</Link>
-                            <Image src={drop} className="h-5 mt-1"/>
+                            <Link href="/ourproducts">Products</Link>
+                            <Image src={drop} className="h-5 mt-1" />
 
                         </li>
                         <li className="flex">
-                            <Link href="/comingsoon">Pages</Link>
-                            <Image src={drop} className="h-5 mt-1"/>
+                            <Link href="/ourteam">Pages</Link>
+                            <Image src={drop} className="h-5 mt-1" />
 
                         </li>
                         <li>
@@ -105,7 +105,8 @@ const Navbar = () => {
                         <Image src={drop} className="h-5 mt-2" />
                     </div>
                     <Image src={wish} className="cursor-pointer" />
-                    <Image src={shop} className="cursor-pointer"  />
+                    <Link href="/cart"><Image src={shop} className="cursor-pointer" /></Link>
+
                 </div>
 
             </div>
