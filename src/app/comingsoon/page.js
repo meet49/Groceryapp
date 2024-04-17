@@ -11,6 +11,7 @@ import user from '@/app/assets/img/user1.png'
 
 function Coming() {
     return (
+    
         <div className="flex">
             <div className="bg-white bg-[url('../app/assets/img/bg6.png')] h-[1080px] w-[50%] flex flex-col  justify-center pl-32">
                 <div className="flex gap-3 pb-5">

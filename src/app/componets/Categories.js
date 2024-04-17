@@ -9,6 +9,7 @@ import p6 from '@/app/assets/img/c6.png'
 import p7 from '@/app/assets/img/c7.png'
 import p8 from '@/app/assets/img/c8.png'
 import a1 from '@/app/assets/img/Icon.png'
+import Link from 'next/link';
 
 const Categories = () => {
   return (
@@ -35,7 +36,9 @@ const Categories = () => {
               <Image src={p1} />
               <p class="font-bold">Vegetable</p>
               <p>25+ Products</p>
-              <Image src={a1} id="hiddenImg1" class="absolute bottom-[-15px]" />
+              <Link href="/ourproducts">
+                <Image src={a1} id="hiddenImg1" class="absolute bottom-[-15px]" />
+              </Link>
             </div>
           </div>
           <div>
@@ -49,7 +52,9 @@ const Categories = () => {
               <Image src={p2} />
               <p class="font-bold">Vegetable</p>
               <p>25+ Products</p>
-              <Image src={a1} id="hiddenImg2" class="absolute bottom-[-15px]" />
+              <Link href="/ourproducts">
+                <Image src={a1} id="hiddenImg1" class="absolute bottom-[-15px]" />
+              </Link>
             </div>
           </div>
           <div>
@@ -63,7 +68,9 @@ const Categories = () => {
               <Image src={p3} />
               <p class="font-bold">Vegetable</p>
               <p>25+ Products</p>
-              <Image src={a1} id="hiddenImg3" class="absolute bottom-[-15px]" />
+              <Link href="/ourproducts">
+                <Image src={a1} id="hiddenImg1" class="absolute bottom-[-15px]" />
+              </Link>
             </div>
           </div>
           <div>
@@ -77,7 +84,9 @@ const Categories = () => {
               <Image src={p4} />
               <p class="font-bold">Vegetable</p>
               <p>25+ Products</p>
-              <Image src={a1} id="hiddenImg4" class="absolute bottom-[-15px]" />
+              <Link href="/ourproducts">
+                <Image src={a1} id="hiddenImg1" class="absolute bottom-[-15px]" />
+              </Link>
             </div>
           </div>
           <div className="relative">
@@ -91,7 +100,9 @@ const Categories = () => {
               <Image src={p5} />
               <p class="font-bold">Vegetable</p>
               <p>25+ Products</p>
-              <Image src={a1} id="hiddenImg5" class="absolute bottom-[-15px]" />
+              <Link href="/ourproducts">
+                <Image src={a1} id="hiddenImg1" class="absolute bottom-[-15px]" />
+              </Link>
             </div>
           </div>
           <div className="relative">
@@ -105,7 +116,9 @@ const Categories = () => {
               <Image src={p6} />
               <p class="font-bold">Vegetable</p>
               <p>25+ Products</p>
-              <Image src={a1} id="hiddenImg6" class="absolute bottom-[-15px]" />
+              <Link href="/ourproducts">
+                <Image src={a1} id="hiddenImg1" class="absolute bottom-[-15px]" />
+              </Link>
             </div>
           </div>
 

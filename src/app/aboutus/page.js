@@ -6,6 +6,8 @@ import Quick from '../componets/Quick'
 import Banner1 from '../componets/Banner1'
 import Testimonial from '../componets/Testimonial'
 import Add from '../componets/about/Add'
+import Navbar from '../componets/Navbar'
+import Footer from '../componets/Footer'
 
 function About() {
   return (

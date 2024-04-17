@@ -10,10 +10,10 @@ function Banner() {
           <Image src={men} height={"268"} />
         </div>
         <div className="h-[442px] flex flex-col pt-24 items-center left-80 bottom-52">
-          <p className="text-[24px] font-bold text-[#609E45]">Learn more about us</p>
+          <p className="text-[24px] font-bold text-[#609E45]">Thank You Page</p>
           <div>
             <p className="text-[16px] inline-block ">Home -</p>
-            <p className="text-[16px] text-[#EF682E] inline-block">About Us</p>
+            <p className="text-[16px] text-[#EF682E] inline-block">Thank You</p>
           </div>
         </div>
 

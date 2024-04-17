@@ -7,6 +7,8 @@ import Todayproduct from './componets/Todayproduct';
 import Testimonial from './componets/Testimonial';
 import Top from './componets/Top';
 import Blog from './componets/Blog';
+import Navbar from './componets/Navbar';
+import Footer from './componets/Footer';
 
 
 export default function Home() {

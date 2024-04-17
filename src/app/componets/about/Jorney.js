@@ -13,11 +13,11 @@ function Jorney() {
                         <p className="font-poppins font-bold text-xl text-center w-[258px] mx-8 pt-8">Launched our product on 28 Nov 2013</p>
                     </div>
                     <Image src={i2} />
-                    <button className="w-[76px] h-[28px] rounded-md text-white bg-[#609E45] mt-10">Lounch</button>
+                    <button className="w-[76px] h-[28px] rounded-md text-white bg-[#609E45] my-10">Lounch</button>
                 </div>
 
                 <div className=" flex flex-col justify-between bg-no-repeat bg-[#ffe8df] bg-center h-screen  bg-[url('../app/assets/img/bg3.png')]">
-                    <div className="flex justify-center items-center gap-10 pr-[270px] pt-3">
+                    <div className="flex justify-center items-center gap-10 pr-[279px] pt-3">
                         <div className="flex items-center">
                             <div className=" flex flex-col text-right items-end h-[166px] rounded-md bg-white pr-5 gap-2">
                                 <p className="text-[#609E45] font-bold">____</p>
@@ -30,7 +30,7 @@ function Jorney() {
                         <p className="text-[#EF682E] font-bold text-xl ">20 November,2013</p>
                     </div>
 
-                    <div className="flex justify-center items-center gap-10 pl-[270px] pt-3">
+                    <div className="flex justify-center items-center gap-10 pl-[290px] pt-3">
                         <p className="text-[#609E45] font-bold text-xl ">05 December,2015</p>
                         <div className="border-[6px] border-[#609E45] rounded-full p-1  bg-[#ffd0bb]"></div>
                         <div className="flex items-center">
@@ -43,7 +43,7 @@ function Jorney() {
                         </div>
                     </div>
 
-                    <div className="flex justify-center items-center gap-10 pr-[330px] pt-3">
+                    <div className="flex justify-center items-center gap-10 pr-[335px] pt-3">
                         <div className="flex items-center">
                             <div className=" flex flex-col text-right items-end h-[166px] rounded-md bg-white pr-5 gap-2">
                                 <p className="text-[#609E45] font-bold">____</p>
@@ -56,7 +56,7 @@ function Jorney() {
                         <p className="text-[#EF682E] font-bold text-xl ">07 June,2016</p>
                     </div>
 
-                    <div className="flex justify-center items-center gap-10 pl-[300px] pt-3 ">
+                    <div className="flex justify-center items-center gap-10 pl-[310px] pt-3 ">
                         <p className="text-[#609E45] font-bold text-xl ">13 August ,2020</p>
                         <div className="border-[6px] border-[#609E45] rounded-full p-1  bg-[#ffd0bb]"></div>
                         <div className="flex items-center">

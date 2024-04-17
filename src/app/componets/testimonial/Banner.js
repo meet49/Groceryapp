@@ -16,7 +16,7 @@ import t11 from '@/app/assets/img/t6.png'
 function Banner() {
   return (
     <div>
-      <div className=" bg-white mx-1 h-[287px] mt-[2.5px] bg-[url('../app/assets/img/bg2.png')] bg-no-repeat static">
+      <div className=" bg-white mx-1 h-[287px]  bg-[url('../app/assets/img/bg2.png')] bg-no-repeat static">
         <div className="absolute top-[212px]">
           <Image src={men} height={"268"} />
         </div>

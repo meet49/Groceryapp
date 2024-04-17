@@ -15,9 +15,9 @@ function Teams() {
     return (
         <>
             <div className="bg-white grid grid-cols-3 p-20 px-60 pl-60 gap-10">
-                <div className="bg-gray-50 w-[412px] h-[579px] flex flex-col pt-10">
-                    <Image src={t1} width={"368"} height={"456"} className="pl-10 relative" />
-                    <div className="w-[202.54px] h-[53.65px] bg-[#609E45] rounded-md absolute bottom-[-25px] left-[350px] opacity-0 hover:opacity-100">
+                <div className="bg-gray-50 w-[412px] h-[579px] flex flex-col pt-10 relative">
+                    <Image src={t1} width={"368"} height={"456"} className="pl-10" />
+                    <div className="w-[202.54px] h-[53.65px] bg-[#609E45] rounded-md absolute bottom-36 left-[100px]  opacity-0 hover:opacity-100">
                         <div className="flex gap-2 justify-center items-center pt-4">
                             <div className=" bg-black inline f-back w-[27px] h-[27px]">
                                 <Image src={facebook} className="ml-1 mt-1" height={"20"} />
@@ -38,9 +38,9 @@ function Teams() {
                         <p className="text-center">CEO and Founder</p>
                     </div>
                 </div>
-                <div className="bg-gray-50 w-[412px] h-[579px] flex flex-col pt-10">
-                    <Image src={t2} width={"368"} height={"456"} className="pl-10 relative" />
-                    <div className="w-[202.54px] h-[53.65px] bg-[#609E45] rounded-md absolute bottom-[-25px] left-[810px]  opacity-0 hover:opacity-100">
+                <div className="bg-gray-50 w-[412px] h-[579px] flex flex-col pt-10 relative">
+                    <Image src={t2} width={"368"} height={"456"} className="pl-10 " />
+                    <div className="w-[202.54px] h-[53.65px] bg-[#609E45] rounded-md absolute bottom-36 left-[100px]  opacity-0 hover:opacity-100">
                         <div className="flex gap-2 justify-center items-center pt-4">
                             <div className=" bg-black inline f-back w-[27px] h-[27px]">
                                 <Image src={facebook} className="ml-1 mt-1" height={"20"} />
@@ -61,9 +61,9 @@ function Teams() {
                         <p className="text-center">Co-Founder</p>
                     </div>
                 </div>
-                <div className="bg-gray-50 w-[412px] h-[579px] flex flex-col pt-10">
-                    <Image src={t3} width={"368"} height={"456"} className="pl-10 relative" />
-                    <div className="w-[202.54px] h-[53.65px] bg-[#609E45] rounded-md absolute bottom-[-25px] right-[360px]  opacity-0 hover:opacity-100">
+                <div className="bg-gray-50 w-[412px] h-[579px] flex flex-col pt-10 relative">
+                    <Image src={t3} width={"368"} height={"456"} className="pl-10 " />
+                    <div className="w-[202.54px] h-[53.65px] bg-[#609E45] rounded-md absolute bottom-36 left-[100px]  opacity-0 hover:opacity-100">
                         <div className="flex gap-2 justify-center items-center pt-4">
                             <div className=" bg-black inline f-back w-[27px] h-[27px]">
                                 <Image src={facebook} className="ml-1 mt-1" height={"20"} />

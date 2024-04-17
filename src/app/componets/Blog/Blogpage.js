@@ -33,7 +33,6 @@ function Blogpage() {
             </div>
             <Link href="/blogdetail">
               <Image src={icon} className="absolute top-32" />
-
             </Link>
           </div>
         </div>

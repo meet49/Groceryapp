@@ -109,7 +109,7 @@ export default function Top() {
                 <Image src={cart} className="w-[30px] h-[30px] rounded-md bg-[#EF682E] absolute top-6 left-6" />
               </div>
             </div>
-            <Link href="/" className="text-[#EF682E] underline">View All Produds</Link>
+            <Link href="/ourproducts" className="text-[#EF682E] underline">View All Produds</Link>
           </div>
 
           <div>
@@ -196,7 +196,7 @@ export default function Top() {
 
               </div>
             </div>
-            <Link href="/" className="hover:text-[#EF682E] hover:underline">View All Produds</Link>
+            <Link href="/ourproducts" className="hover:text-[#EF682E] hover:underline">View All Produds</Link>
           </div>
           <div>
             <p className="mb-8 font-bold text-2xl">Top Rated</p><p className="text-[#EF682E]">_____</p>
@@ -284,7 +284,7 @@ export default function Top() {
               </div>
             </div>
 
-            <Link href="/" className="hover:text-[#EF682E] hover:underline">View All Produds</Link>
+            <Link href="/ourproducts" className="hover:text-[#EF682E] hover:underline">View All Produds</Link>
           </div>
           <div className="bg-[#609E45] rounded-md">
             <div className="flex flex-col gap-7">

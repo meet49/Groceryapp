@@ -9,13 +9,16 @@ export default function NotFound() {
       <p>The page you look for does not exist or another error occured
         pls kindly refreash or retun to <b className="text-[#EF682E]">home page.</b></p>
       <div className="flex gap-5 justify-center items-center mt-5">
-        <button className="h-[60px] w-[164px] text-white bg-[#609E45] rounded-md font-bold text-base">
-          <Link href="/">Go to Homepage</Link>
-        </button>
-        <button className="h-[60px] w-[164px] bg-white text-[#609E45] border-2 border-[#609E45] rounded-md font-bold text-base">
-        <Link href="/faq">Help Center</Link>
-
-        </button>
+        <Link href="/">
+          <button className="h-[60px] w-[164px] text-white bg-[#609E45] rounded-md font-bold text-base">
+            Go to Homepage
+          </button>
+        </Link>
+        <Link href="/faq">
+          <button className="h-[60px] w-[164px] bg-white text-[#609E45] border-2 border-[#609E45] rounded-md font-bold text-base">
+            Help Center
+          </button>
+        </Link>
       </div>
     </div>
   );

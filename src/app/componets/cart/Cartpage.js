@@ -117,13 +117,17 @@ function Cartpage() {
             <p>Grand Total</p>
             <p>$70.00</p>
           </div>
-          <button className="w-[361px] h-[50px] bg-[#609E45] text-white text-center rounded-md mb-5">
-            <Link href="/checkout">Proceed to checkout</Link>
-            
-          </button>
-          <button className="w-[361px] h-[50px] bg-black text-white text-center rounded-md">
-            Continue Shopping
-          </button>
+          <Link href="/checkout">
+            <button className="w-[361px] h-[50px] bg-[#609E45] text-white text-center rounded-md mb-5">
+              Proceed to checkout
+            </button>
+          </Link>
+          <Link href="/ourproducts">
+            <button className="w-[361px] h-[50px] bg-black text-white text-center rounded-md">
+              Continue Shopping
+            </button>
+          </Link>
+
         </div>
       </div>
     </div>

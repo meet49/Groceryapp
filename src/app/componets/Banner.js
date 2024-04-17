@@ -10,7 +10,7 @@ import truck from '@/app/assets/img/truck.png'
 function Banner() {
   return (
     <div>
-      <div className=" bg-white mx-1 h-[785px] mt-[2.5px] bg-[url('../app/assets/img/bg1.png')] bg-no-repeat static">
+      <div className=" bg-white mx-1 h-[785px] bg-[url('../app/assets/img/bg1.png')] bg-no-repeat static">
           <div className="absolute bottom-[-27px]">
             <Image src={men} />
           </div>

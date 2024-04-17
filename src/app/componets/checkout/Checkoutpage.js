@@ -3,6 +3,7 @@ import Image from "next/image";
 import c1 from "@/app/assets/img/cart.png";
 import c2 from "@/app/assets/img/cart1.png";
 import c3 from "@/app/assets/img/cart2.png";
+import Link from "next/link";
 
 function Checkoutpage() {
   return (
@@ -177,19 +178,22 @@ function Checkoutpage() {
             <p>$508.00</p>
           </div>
           <div>
-            <input type="radio"/>
+            <input type="radio" name="pay" />
             <p className="inline font-semibold pl-2">Direct bank transfer</p>
           </div>
           <div>
-            <input type="radio" className="bg-[#609E45]"/>
+            <input type="radio"  name="pay" />
             <p className="inline font-semibold pl-2">Check payments</p>
             <p className="text-justify pl-5">Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
           </div>
           <div>
-            <input type="radio"/>
+            <input type="radio" name="pay" />
             <p className="inline font-semibold pl-2">Cash on delivery</p>
           </div>
-          <button className="w-[361px] h-[50px] bg-[#609E45] text-white rounded-md">Place Order</button>
+          <Link href="thankyou">
+            <button className="w-[361px] h-[50px] bg-[#609E45] text-white rounded-md">Place Order</button>
+          </Link>
+
         </div>
       </div>
     </div>

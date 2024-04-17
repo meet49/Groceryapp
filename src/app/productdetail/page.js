@@ -3,6 +3,7 @@ import Banner from '../componets/products/Banner'
 import Productdetails from '../componets/products/Productdetail'
 import Related from '../componets/products/Related'
 
+
 function Productdetail() {
   return (
     <div>

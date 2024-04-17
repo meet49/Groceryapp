@@ -14,6 +14,7 @@ import logo6 from '@/app/assets/img/logo6.png'
 import person2 from '@/app/assets/img/person2.png'
 import gro from '@/app/assets/img/groceryd.png'
 import icon from '@/app/assets/img/icon.png'
+import Link from 'next/link';
 
 export default function Blog() {
   return (
@@ -24,7 +25,7 @@ export default function Blog() {
           <p className="w-[356px] font-bold text-[#EF682E] text-4xl">Most Popular News & Top Blogs</p>
           <div className="flex gap-5 items-center justify-center ">
             <div>
-              <div  className="h-[512px] flex flex-col justify-around items-center text-left border border-[#ffb595] hover:border-[#EF682E] px-2 rounded-md relative">
+              <div className="h-[512px] flex flex-col justify-around items-center text-left border border-[#ffb595] hover:border-[#EF682E] px-2 rounded-md relative">
                 <Image src={blog1} className=" rounded-md opacity-35" />
                 <div>
                   <p className="text-xl font-bold w-[354px] mb-3">Reasons to Include Organic Fennel in Your Diet</p>
@@ -36,7 +37,9 @@ export default function Blog() {
                   <Image src={clock} />
                   <p>08 Jan, 2023</p>
                 </div>
-                <Image src={icon} className="absolute top-32" />
+                <Link href="/blogdetail">
+                  <Image src={icon} className="absolute top-32" />
+                </Link>
               </div>
             </div>
 
@@ -68,7 +71,9 @@ export default function Blog() {
                   <Image src={clock} />
                   <p>08 Jan, 2023</p>
                 </div>
-                <Image src={icon} className="absolute top-32" />
+                <Link href="/blogdetail">
+                  <Image src={icon} className="absolute top-32" />
+                </Link>
               </div>
             </div>
 
@@ -100,7 +105,9 @@ export default function Blog() {
                   <Image src={clock} />
                   <p>08 Jan, 2023</p>
                 </div>
-                <Image src={icon} className="absolute top-32" />
+                <Link href="/blogdetail">
+                  <Image src={icon} className="absolute top-32" />
+                </Link>
               </div>
             </div>
 
@@ -116,18 +123,18 @@ export default function Blog() {
           </div>
           <div>
             <div className="grid grid-cols-4 gap-10 ">
-              <Image src={logo1} className="cursor-pointer"/>
-              <Image src={logo2} className="cursor-pointer"/>
-              <Image src={logo3} className="cursor-pointer"/>
-              <Image src={logo4} className="cursor-pointer"/>
-              <Image src={logo5} className="cursor-pointer"/>
-              <Image src={logo6} className="cursor-pointer"/>
-              <Image src={logo5} className="cursor-pointer"/>
-              <Image src={logo6} className="cursor-pointer"/>
-              <Image src={logo5} className="cursor-pointer"/>
-              <Image src={logo6} className="cursor-pointer"/>
-              <Image src={logo5} className="cursor-pointer"/>
-              <Image src={logo6} className="cursor-pointer"/>
+              <Image src={logo1} className="cursor-pointer" />
+              <Image src={logo2} className="cursor-pointer" />
+              <Image src={logo3} className="cursor-pointer" />
+              <Image src={logo4} className="cursor-pointer" />
+              <Image src={logo5} className="cursor-pointer" />
+              <Image src={logo6} className="cursor-pointer" />
+              <Image src={logo5} className="cursor-pointer" />
+              <Image src={logo6} className="cursor-pointer" />
+              <Image src={logo5} className="cursor-pointer" />
+              <Image src={logo6} className="cursor-pointer" />
+              <Image src={logo5} className="cursor-pointer" />
+              <Image src={logo6} className="cursor-pointer" />
             </div>
           </div>
         </div>
