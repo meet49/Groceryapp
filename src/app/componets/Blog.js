@@ -71,9 +71,7 @@ export default function Blog() {
                   <Image src={clock} />
                   <p>08 Jan, 2023</p>
                 </div>
-                <Link href="/blogdetail">
-                  <Image src={icon} className="absolute top-32" />
-                </Link>
+                <Image src={icon} className="absolute top-32" />
               </div>
             </div>
 
@@ -105,14 +103,15 @@ export default function Blog() {
                   <Image src={clock} />
                   <p>08 Jan, 2023</p>
                 </div>
-                <Link href="/blogdetail">
-                  <Image src={icon} className="absolute top-32" />
-                </Link>
+                <Image src={icon} className="absolute top-32" />
               </div>
             </div>
 
           </div>
-          <button className="p-2 h-[50px] bg-white border border-[#EF682E] text-[#EF682E] rounded-md font-poppins font-semibold text-base">View All Blogs</button>
+          <Link href="/ourblog">
+            <button className="p-2 h-[50px] bg-white border border-[#EF682E] text-[#EF682E] rounded-md font-poppins font-semibold text-base">View All Blogs</button>
+          </Link>
+
         </div>
         <div className="flex justify-center mt-20">
           <div className="flex justify-between flex-col">

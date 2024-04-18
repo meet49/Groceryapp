@@ -100,8 +100,19 @@
 
 #firstDiv3:hover+#secondDiv3 {
   display: flex;
-  flex-direction: column;
   border: 1px solid rgba(239, 104, 46, 1);
   
 }
-
+#box{
+  background: white;
+  border-radius: 5px;
+  
+}
+#box:hover{
+ 
+  border-color: #609E45;
+}
+#box:hover #btn{
+  display: inline-flex;
+  
+}

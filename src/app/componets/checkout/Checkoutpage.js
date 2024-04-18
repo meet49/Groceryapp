@@ -7,7 +7,7 @@ import Link from "next/link";
 
 function Checkoutpage() {
   return (
-    <div className="bg-[url('../app/assets/img/bg10.png')] bg-no-repeat bg-white py-20">
+    <div className="bg-[url('../app/assets/img/bg10.png')] bg-no-repeat bg-white">
       <div className="px-40 py-10 flex justify-center">
         <div className="px-12 w-[1300px] bg-gray-100  h-[158px] py-12 rounded-md">
           <div className="bg-[url('../app/assets/img/bg8.png')] bg-no-repeat bg-center flex items-center justify-between rounded-md ">
@@ -182,7 +182,7 @@ function Checkoutpage() {
             <p className="inline font-semibold pl-2">Direct bank transfer</p>
           </div>
           <div>
-            <input type="radio"  name="pay" />
+            <input type="radio" name="pay" />
             <p className="inline font-semibold pl-2">Check payments</p>
             <p className="text-justify pl-5">Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
           </div>
@@ -194,6 +194,15 @@ function Checkoutpage() {
             <button className="w-[361px] h-[50px] bg-[#609E45] text-white rounded-md">Place Order</button>
           </Link>
 
+        </div>
+      </div>
+      <div className="bg-[#fee2d6] flex flex-col justify-center items-center text-center h-[350px] mt-20">
+        <p className="font-bold text-4xl mb-5">Subscribe to newsletter</p>
+        <p className="w-[599px] text-base mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy tex</p>
+        <div className="w-[765px] flex justify-between">
+          <input type="text" placeholder="Your Name" className="bg-[#fee2d6] border-[#ffac88] border h-[60px] w-[175px]  rounded-md p-2" />
+          <input type="email" placeholder="Enter Your Email" className="bg-[#fee2d6] border-[#ffac88] border h-[60px] w-[380px] rounded-md p-2" />
+          <button className="p-2 h-[60px] w-[150px] border bg-[#609E45] text-white rounded-md font-poppins font-semibold text-base">Subscribe Now</button>
         </div>
       </div>
     </div>

@@ -22,133 +22,136 @@ const Todayproduct = () => {
           </div>
           <div className="flex justify-center gap-6">
 
-            <div className="h-[463px] border-[1px] relative bg-white">
+            <div className="h-[463px] border-[1px] relative " id="box">
               <div className="flex justify-center mt-2 mx-2">
                 <Image src={pro1} className=" h-[307px] bg-gray-100" />
               </div>
               <div className="mt-5 ">
                 <p className="font-bold text-[#EF682E] text-[20px] text-center ">Fresh Tomato</p>
                 <pre className="flex gap-2 justify-center mt-2"><del className="
-                  del text-gray-400">$10.00</del><p>$05.00</p> </pre>
+      del text-gray-400">$10.00</del><p>$05.00</p> </pre>
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center hidden gap-2 items-center cursor-pointer " id="btn" ><Image src={cart} />Add to Cart</button>
               </Link>
+
             </div>
 
-
-
-            <div className="h-[463px] border-[1px] relative bg-white">
+            <div className="h-[463px] border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">
                 <Image src={pro2} className=" h-[307px] bg-gray-100 mx-2" />
               </div>
               <div className="mt-5">
                 <p className="font-bold text-[#EF682E] text-[20px] text-center">Organic Cabbage</p>
                 <pre className="flex gap-2 justify-center mt-2"><del className="
-                  del text-gray-400">$12.00</del><p>$07.00</p> </pre>
+      del text-gray-400">$12.00</del><p>$07.00</p> </pre>
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
               </Link>
+
             </div>
 
-            <div className="h-[463px]   border-[1px] relative bg-white">
+            <div className="h-[463px]   border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">
                 <Image src={pro3} className=" h-[307px] bg-gray-100 mx-2" />
               </div>
               <div className="mt-5">
                 <p className="font-bold text-[#EF682E] text-[20px] text-center">Yellow Orange</p>
                 <pre className="flex gap-2 justify-center mt-2"><del className="
-                  del text-gray-400">$15.00</del><p>$15.00</p> </pre>
+      del text-gray-400">$15.00</del><p>$15.00</p> </pre>
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
               </Link>
+
             </div>
 
-            <div className="h-[463px]   border-[1px] relative bg-white">
+            <div className="h-[463px]   border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">
                 <Image src={pro4} className=" h-[307px] bg-gray-100 mx-2" />
               </div>
               <div className="mt-5">
                 <p className="font-bold text-[#EF682E] text-[20px] text-center">Broccoli Sliced Mix</p>
                 <pre className="flex gap-2 justify-center mt-2"><del className="
-                  del text-gray-400">$10.00</del><p>$07.00</p> </pre>
+      del text-gray-400">$10.00</del><p>$07.00</p> </pre>
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
               </Link>
+
             </div>
           </div>
           <div className="flex justify-center gap-6 mt-12">
 
-            <div className="h-[463px]   border-[1px] relative bg-white">
+            <div className="h-[463px]   border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">
                 <Image src={pro5} className=" h-[307px] bg-gray-100 mx-2" />
               </div>
               <div className="mt-5">
                 <p className="font-bold text-[#EF682E] text-[20px] text-center">Stoberry 819525</p>
                 <pre className="flex gap-2 justify-center mt-2"><del className="
-                   text-gray-400">$25.00</del><p>$20.00</p> </pre>
+       text-gray-400">$25.00</del><p>$20.00</p> </pre>
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
               </Link>
+
             </div>
 
-
-
-            <div className="h-[463px] border-[1px] relative bg-white" >
+            <div className="h-[463px] border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">
                 <Image src={pro6} className=" h-[307px] bg-gray-100 mx-2" />
               </div>
               <div className="mt-5">
                 <p className="font-bold text-[#EF682E] text-[20px] text-center">Organic Carrot</p>
                 <pre className="flex gap-2 justify-center mt-2"><del className="
-                   text-gray-400">$10.00</del><p>$07.00</p> </pre>
+       text-gray-400">$10.00</del><p>$07.00</p> </pre>
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
               </Link>
+
             </div>
 
-
-
-            <div className="h-[463px]  border-[1px] relative bg-white">
+            <div className="h-[463px]  border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">
                 <Image src={pro7} className=" h-[307px] bg-gray-100 mx-2" />
               </div>
               <div className="mt-5">
                 <p className="font-bold text-[#EF682E] text-[20px] text-center">Organic Kiwi</p>
                 <pre className="flex gap-2 justify-center mt-2"><del className="
-                   text-gray-400">$16.00</del><p>$15.00</p> </pre>
+       text-gray-400">$16.00</del><p>$15.00</p> </pre>
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
               </Link>
+
             </div>
 
-            <div className="h-[463px]  border-[1px] relative bg-white">
+            <div className="h-[463px]  border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">
                 <Image src={pro8} className=" h-[307px] bg-gray-100 mx-2" />
               </div>
               <div className="mt-5">
                 <p className="font-bold text-[#EF682E] text-[20px] text-center">Sweet Mango</p>
                 <pre className="flex gap-2 justify-center mt-2"><del className="
-                   text-gray-400">$30.00</del><p>$25.00</p> </pre>
+       text-gray-400">$30.00</del><p>$25.00</p> </pre>
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
               </Link>
+
             </div>
+
           </div>
         </div>
       </div>

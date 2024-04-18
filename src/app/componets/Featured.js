@@ -28,7 +28,7 @@ export default function Featured() {
           </div>
           <div className="flex justify-center gap-6">
 
-            <div className="h-[463px] border-[1px] relative">
+            <div className="h-[463px] border-[1px] relative" id="box">
               <div className="flex justify-center mt-2 mx-2">
                 <Image src={pro1} className=" h-[307px] bg-gray-100" />
               </div>
@@ -39,12 +39,12 @@ export default function Featured() {
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center hidden gap-2 items-center cursor-pointer "id="btn" ><Image src={cart} />Add to Cart</button>
               </Link>
 
             </div>
 
-            <div className="h-[463px] border-[1px] relative">
+            <div className="h-[463px] border-[1px] relative"  id="box">
               <div className="flex justify-center mt-2">
                 <Image src={pro2} className=" h-[307px] bg-gray-100 mx-2" />
               </div>
@@ -55,12 +55,12 @@ export default function Featured() {
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
               </Link>
 
             </div>
 
-            <div className="h-[463px]   border-[1px] relative">
+            <div className="h-[463px]   border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">
                 <Image src={pro3} className=" h-[307px] bg-gray-100 mx-2" />
               </div>
@@ -71,12 +71,12 @@ export default function Featured() {
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
               </Link>
 
             </div>
 
-            <div className="h-[463px]   border-[1px] relative">
+            <div className="h-[463px]   border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">
                 <Image src={pro4} className=" h-[307px] bg-gray-100 mx-2" />
               </div>
@@ -87,14 +87,14 @@ export default function Featured() {
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
               </Link>
 
             </div>
           </div>
           <div className="flex justify-center gap-6 mt-12">
 
-            <div className="h-[463px]   border-[1px] relative">
+            <div className="h-[463px]   border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">
                 <Image src={pro5} className=" h-[307px] bg-gray-100 mx-2" />
               </div>
@@ -105,12 +105,12 @@ export default function Featured() {
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
               </Link>
 
             </div>
 
-            <div className="h-[463px] border-[1px] relative">
+            <div className="h-[463px] border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">
                 <Image src={pro6} className=" h-[307px] bg-gray-100 mx-2" />
               </div>
@@ -121,12 +121,12 @@ export default function Featured() {
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
               </Link>
 
             </div>
 
-            <div className="h-[463px]  border-[1px] relative">
+            <div className="h-[463px]  border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">
                 <Image src={pro7} className=" h-[307px] bg-gray-100 mx-2" />
               </div>
@@ -137,12 +137,12 @@ export default function Featured() {
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
               </Link>
 
             </div>
 
-            <div className="h-[463px]  border-[1px] relative">
+            <div className="h-[463px]  border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">
                 <Image src={pro8} className=" h-[307px] bg-gray-100 mx-2" />
               </div>
@@ -153,7 +153,7 @@ export default function Featured() {
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer opacity-0 hover:opacity-100"><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
               </Link>
 
             </div>
