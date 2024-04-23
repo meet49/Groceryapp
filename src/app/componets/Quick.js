@@ -9,7 +9,7 @@ import wallet from '@/app/assets/img/wallet.png'
 function Quick() {
   return (
     <div>
-      <div className=" h-[287px] bg-white flex gap-20 py-28 pl-60">
+      <div className="  bg-white flex flex-wrap gap-20 py-28 justify-center px-2">
           <div>
             <div className=" border-[#609E45] border-[1px] inline-block rounded-md w-[260px] h-[87px] relative pt-5">
               <p className="font-bold ml-11">Free Shipping.</p>

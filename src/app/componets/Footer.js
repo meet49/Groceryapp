@@ -14,19 +14,19 @@ import hr from "@/app/assets/img/image1.png"
 function Footer() {
     return (
         <>
-            <div className="bg-[#fee2d6] flex flex-col justify-center items-center text-center h-[350px] ">
+            <div className="bg-[#fee2d6] flex flex-col justify-center items-center text-center py-10 lg:h-[350px] ">
                 <p className="font-bold text-4xl mb-5">Subscribe to newsletter</p>
-                <p className="w-[599px] text-base mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy tex</p>
-                <div className="w-[765px] flex justify-between">
+                <p className="lg:w-[599px] text-base mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy tex</p>
+                <div className="lg:w-[765px] flex lg:justify-between gap-5 justify-center flex-wrap">
                     <input type="text" placeholder="Your Name" className="bg-[#fee2d6] border-[#ffac88] border h-[60px] w-[175px]  rounded-md p-2" />
-                    <input type="email" placeholder="Enter Your Email" className="bg-[#fee2d6] border-[#ffac88] border h-[60px] w-[380px] rounded-md p-2" />
+                    <input type="email" placeholder="Enter Your Email" className="bg-[#fee2d6] border-[#ffac88] border h-[60px] lg:w-[380px] rounded-md p-2" />
                     <button className="p-2 h-[60px] w-[150px] border bg-[#609E45] text-white rounded-md font-poppins font-semibold text-base">Subscribe Now</button>
                 </div>
             </div>
-            <div className=" bg-green h-[594px] flex flex-col justify-between items-center">
+            <div className=" bg-green xl:h-[594px] flex flex-col justify-between items-center">
 
-                <div className="flex gap-64 justify-between items-center w-[1207.6px] pt-10">
-                    <div className="flex gap-20">
+                <div className="flex xl:gap-64 gap-10 justify-between items-center flex-wrap xl:w-[1207.6px] pt-10">
+                    <div className="flex xl:gap-20 pl-5 flex-wrap gap-5">
                         <div className="flex gap-2">
                             <Image src={call} className="text-white" />
                             <div>
@@ -38,12 +38,12 @@ function Footer() {
                             <Image src={mail} />
                             <div>
                                 <p className="font-[16px] text-white">Email Us</p>
-                                <p className="font-bold text-white">contact@troothemes.com</p>
+                                <p className="font-bold text-white ">contact@troothemes.com</p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="flex gap-3">
+                    <div className="flex gap-3 pl-5">
                         <p className="font-poppins text-white text-[14px]">Follow Us On</p>
                         <p className="text-white text-[14px]">------</p>
                         <div className=" bg-black inline f-back">
@@ -61,7 +61,7 @@ function Footer() {
                     </div>
                 </div>
                 <Image src={hr}/>
-                <div className="flex justify-around w-[1229px]">
+                <div className="flex justify-start xl:justify-around pl-5 items-start flex-wrap gap-10 mt-10 xl:w-[1229px]">
                     <div className="text-white">
                         <div className="flex gap-5 mb-5">
                             <Image src={logo} className="bg-white rounded-[50%]" />
@@ -107,7 +107,7 @@ function Footer() {
                 </div>
                 <Image src={hr}/>
 
-                <div className="flex justify-around w-[1229px] text-white py-3">
+                <div className="flex justify-start pl-5 xl:justify-around xl:w-[1229px] flex-wrap gap-5 text-white py-3">
                     <p>Copyright © 2023. Themes. All rights reserved.</p>
                     <Image src={payment}/>
                     <p>Privacy Policy  /  Terms & Conditions</p>

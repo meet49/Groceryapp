@@ -15,19 +15,19 @@ export default function Featured() {
   return (
     <div>
       <div className="bg-white py-24">
-        <div className="h-[1235px]  flex flex-col justify-between self-center items-center">
+        <div className="  flex flex-col justify-between self-center items-center">
           <div className="flex flex-col justify-center items-center">
             <button className="bg-[#609E45] text-white px-3 rounded-md font-poppins w-38">Awesome Products</button>
             <p className="font-bold text-[36px] text-[#EF682E] mt-5">Featured Products</p>
           </div>
-          <div className="flex  justify-center items-center">
+          <div className="flex  justify-center items-center pb-10 pt-5 flex-wrap gap-5">
             <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1">All Products</button>
             <button className="w-[150px] h-[50px] rounded-md bg-[#ef682e23] text-black mr-1 hover:bg-[#EF682E] hover:text-white">Best Sellers</button>
             <button className="w-[150px] h-[50px] rounded-md bg-[#ef682e23] text-black mr-1 hover:bg-[#EF682E] hover:text-white">New Arrivals</button>
             <button className="w-[150px] h-[50px] rounded-md bg-[#ef682e23] text-black mr-1 hover:bg-[#EF682E] hover:text-white">Top Rated</button>
           </div>
-          <div className="flex justify-center gap-6">
 
+          <div className="flex justify-center flex-wrap gap-6 px-10 2xl:px-40">
             <div className="h-[463px] border-[1px] relative" id="box">
               <div className="flex justify-center mt-2 mx-2">
                 <Image src={pro1} className=" h-[307px] bg-gray-100" />
@@ -39,12 +39,12 @@ export default function Featured() {
                 <h1 className="text-center text-yellow-400 mt-2 ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
               </div>
               <Link href="/cart">
-                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center hidden gap-2 items-center cursor-pointer "id="btn" ><Image src={cart} />Add to Cart</button>
+                <button className="w-[150px] h-[50px] rounded-md bg-[#EF682E] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center hidden gap-2 items-center cursor-pointer " id="btn" ><Image src={cart} />Add to Cart</button>
               </Link>
 
             </div>
 
-            <div className="h-[463px] border-[1px] relative"  id="box">
+            <div className="h-[463px] border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">
                 <Image src={pro2} className=" h-[307px] bg-gray-100 mx-2" />
               </div>
@@ -91,8 +91,7 @@ export default function Featured() {
               </Link>
 
             </div>
-          </div>
-          <div className="flex justify-center gap-6 mt-12">
+
 
             <div className="h-[463px]   border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">

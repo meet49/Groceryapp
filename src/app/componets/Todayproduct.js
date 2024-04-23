@@ -15,12 +15,12 @@ const Todayproduct = () => {
   return (
     <div>
       <div className="bg-[#ffeef1] py-24 bg-[url('../app/assets/img/bg15.png')] bg-no-repeat">
-        <div className="h-[1235px]  flex flex-col justify-between self-center items-center ">
+        <div className="  flex flex-col justify-between self-center items-center ">
           <div className="flex flex-col justify-center items-center">
             <button className="bg-[#609E45] text-white px-3 rounded-md font-poppins w-38">Awesome Products</button>
             <p className="font-bold text-[36px] text-[#EF682E] mt-5">Top Savers Today</p>
           </div>
-          <div className="flex justify-center gap-6">
+          <div className="flex justify-center flex-wrap gap-6 px-10 2xl:px-40">
 
             <div className="h-[463px] border-[1px] relative " id="box">
               <div className="flex justify-center mt-2 mx-2">
@@ -85,8 +85,6 @@ const Todayproduct = () => {
               </Link>
 
             </div>
-          </div>
-          <div className="flex justify-center gap-6 mt-12">
 
             <div className="h-[463px]   border-[1px] relative" id="box">
               <div className="flex justify-center mt-2">

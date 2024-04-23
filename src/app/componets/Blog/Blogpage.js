@@ -28,12 +28,11 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
-            <Link href="/blogdetail">
               <Image src={icon} className="absolute top-32" />
-            </Link>
           </div>
         </div>
 
@@ -48,6 +47,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -62,6 +62,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+                  <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -80,6 +81,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -94,6 +96,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+                  <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -114,6 +117,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+                  <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -128,6 +132,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+                  <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -146,6 +151,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+                  <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -160,6 +166,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+                  <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -178,6 +185,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+                  <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -192,6 +200,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+                  <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -212,6 +221,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+                  <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -226,6 +236,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+                  <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -244,6 +255,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+                  <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -258,6 +270,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+                  <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -276,6 +289,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+                  <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -290,6 +304,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
+                  <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>

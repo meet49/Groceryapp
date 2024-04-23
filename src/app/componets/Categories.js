@@ -14,117 +14,77 @@ import Link from 'next/link';
 const Categories = () => {
   return (
     <div>
-      <div className="bg-gray-100 h-[637px] relative">
-        <div className="flex justify-between w-[1298px] h-[111px] ml-64 pt-24 pl-9">
+      <div className="bg-gray-100 xl:h-[637px] relative">
+        <div className="flex justify-between xl:justify-around  flex-wrap gap-5 xl:ml-14 pt-24 pl-9">
           <div>
             <button className="bg-[#609E45] text-white px-3 rounded-md font-poppins w-38">Hot Categories</button>
             <p className="font-bold text-[#EF682E] text-[36px] mt-6">Browse Our Categories</p>
           </div>
           <div>
-            <p className="w-[510px] text-[16px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+            <p className=" text-[16px] justify-center  items-centerflex flex-wrap lg:w-[510px] lg:pr-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
           </div>
         </div>
-        <div className="flex justify-center gap-5 absolute bottom-28 pl-72">
-          <div >
-            <div id="firstDiv1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
-              <Image src={p1} />
-              <p class="font-bold">Vegetable</p>
-              <p>25+ Products</p>
-            </div>
-
-            <div id="secondDiv1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
-              <Image src={p1} />
-              <p class="font-bold">Vegetable</p>
-              <p>25+ Products</p>
-              <Link href="/ourproducts">
-                <Image src={a1} id="hiddenImg1" class="absolute bottom-[-15px]" />
-              </Link>
-            </div>
+        <div className="flex flex-wrap justify-center gap-5 items-center px-5 py-5 pb-10">
+          <div id="box1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
+            <Image src={p1} />
+            <p class="font-bold">Vegetable</p>
+            <p>25+ Products</p>
+            <Link href="/ourproducts">
+              <Image src={a1} id="btn1" class=" hidden absolute bottom-[-15px]" />
+            </Link>
           </div>
-          <div>
-            <div id="firstDiv1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
-              <Image src={p2} />
-              <p class="font-bold">Vegetable</p>
-              <p>25+ Products</p>
-            </div>
 
-            <div id="secondDiv1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
-              <Image src={p2} />
-              <p class="font-bold">Vegetable</p>
-              <p>25+ Products</p>
-              <Link href="/ourproducts">
-                <Image src={a1} id="hiddenImg1" class="absolute bottom-[-15px]" />
-              </Link>
-            </div>
+          <div id="box1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
+            <Image src={p2} />
+            <p class="font-bold">Fresh Fruits</p>
+            <p>85+ Products</p>
+            <Link href="/ourproducts">
+              <Image src={a1} id="btn1" class="absolute bottom-[-15px] hidden" />
+            </Link>
           </div>
-          <div>
-            <div id="firstDiv1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
-              <Image src={p3} />
-              <p class="font-bold">Vegetable</p>
-              <p>25+ Products</p>
-            </div>
 
-            <div id="secondDiv1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
-              <Image src={p3} />
-              <p class="font-bold">Vegetable</p>
-              <p>25+ Products</p>
-              <Link href="/ourproducts">
-                <Image src={a1} id="hiddenImg1" class="absolute bottom-[-15px]" />
-              </Link>
-            </div>
-          </div>
-          <div>
-            <div id="firstDiv1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
-              <Image src={p4} />
-              <p class="font-bold">Vegetable</p>
-              <p>25+ Products</p>
-            </div>
 
-            <div id="secondDiv1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
-              <Image src={p4} />
-              <p class="font-bold">Vegetable</p>
-              <p>25+ Products</p>
-              <Link href="/ourproducts">
-                <Image src={a1} id="hiddenImg1" class="absolute bottom-[-15px]" />
-              </Link>
-            </div>
+          <div id="box1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
+            <Image src={p3} />
+            <p class="font-bold">Beverages</p>
+            <p>68+ Products</p>
+            <Link href="/ourproducts">
+              <Image src={a1} id="btn1" class="absolute bottom-[-15px] hidden" />
+            </Link>
           </div>
-          <div className="relative">
-            <div id="firstDiv1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
-              <Image src={p5} />
-              <p class="font-bold">Vegetable</p>
-              <p>25+ Products</p>
-            </div>
 
-            <div id="secondDiv1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
-              <Image src={p5} />
-              <p class="font-bold">Vegetable</p>
-              <p>25+ Products</p>
-              <Link href="/ourproducts">
-                <Image src={a1} id="hiddenImg1" class="absolute bottom-[-15px]" />
-              </Link>
-            </div>
-          </div>
-          <div className="relative">
-            <div id="firstDiv1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
-              <Image src={p6} />
-              <p class="font-bold">Vegetable</p>
-              <p>25+ Products</p>
-            </div>
 
-            <div id="secondDiv1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
-              <Image src={p6} />
-              <p class="font-bold">Vegetable</p>
-              <p>25+ Products</p>
-              <Link href="/ourproducts">
-                <Image src={a1} id="hiddenImg1" class="absolute bottom-[-15px]" />
-              </Link>
-            </div>
+          <div id="box1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
+            <Image src={p4} />
+            <p class="font-bold">Sea Food</p>
+            <p>29+ Products</p>
+            <Link href="/ourproducts">
+              <Image src={a1} id="btn1" class="absolute bottom-[-15px] hidden" />
+            </Link>
           </div>
+
+          <div id="box1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
+            <Image src={p5} />
+            <p class="font-bold">Package Food</p>
+            <p>68+ Products</p>
+            <Link href="/ourproducts">
+              <Image src={a1} id="btn1" class="absolute bottom-[-15px] hidden" />
+            </Link>
+          </div>
+
+          <div id="box1" class="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative">
+            <Image src={p6} />
+            <p class="font-bold">Backery Items</p>
+            <p>68+ Products</p>
+            <Link href="/ourproducts">
+              <Image src={a1} id="btn1" class="absolute bottom-[-15px] hidden" />
+            </Link>
+          </div>
+
 
         </div>
-        <Image src={p7} className="absolute bottom-0 right-0" />
-        <Image src={p8} className="absolute top-14" />
+        <Image src={p7} className=" hidden 2xl:block 2xl:absolute 2xl:bottom-0 2xl:right-0" />
+        <Image src={p8} className="hidden xl:block xl:absolute xl:top-14" />
       </div>
     </div>
   )

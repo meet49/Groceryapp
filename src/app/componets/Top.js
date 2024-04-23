@@ -25,7 +25,7 @@ export default function Top() {
   return (
     <div>
       <div className="relative">
-        <div className="bg-gray-100 flex items-center justify-center gap-10 pt-[450px]">
+        <div className="bg-gray-100 flex items-center justify-center gap-10 pt-[500px] pb-10 flex-wrap">
           <div>
             <p className="mb-8 font-bold text-2xl">Top Sells</p><p className="text-[#EF682E]">_____</p>
             <div>
@@ -297,17 +297,17 @@ export default function Top() {
             </div>
           </div>
         </div>
-        <div className="flex  w-[80%] bg-[url('../app/assets/img/bgg1.png')] bg-[#609E45] justify-around rounded-xl h-[500px] items-center absolute  top-[-200px] left-44">
+        <div className="flex flex-wrap  justify-center  bg-[url('../app/assets/img/bgg1.png')] bg-[#609E45] lg:justify-around lg:left-36 xl:left-60 rounded-xl xl:h-[500px] items-center absolute  top-[-200px] 2xl:left-80 2xl:px-40 ">
           <div className="text-white">
-            <p className="text-4xl w-[460px] mb-5">Shopping for vegetables & fruits is easier with</p>
-            <p className="text-4xl font-bold mb-5">TRoo Grocery App</p>
-            <p className="text-2xl mb-5">Available on Both Android and ios</p>
+            <p className="text-2xl 2xl:w-[460px] mb-5">Shopping for vegetables & fruits is easier with</p>
+            <p className="text-2xl font-bold mb-5">TRoo Grocery App</p>
+            <p className="text-xl mb-5">Available on Both Android and ios</p>
             <button><Image src={android} className="mr-5" /></button>
             <button><Image src={apple} /></button>
           </div>
-          <div className="relative">
+          <div className="relative py-10">
             <Image src={phonebg} />
-            <Image src={phone} className="absolute bottom-0 right-20 top-[-20px]" />
+            <Image src={phone} className="absolute  right-5 bottom-5  h-96 w-80 sm:h-[400px] sm:w-96 lg:h-[440px] lg:w-[246px] lg:bottom-0 lg:right-20 lg:top-[-20px]" />
           </div>
         </div>
       </div >

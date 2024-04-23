@@ -1,4 +1,5 @@
-import React from "react";
+"use client"
+import React, { useState } from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import facebook from "@/app/assets/img/facebook.png";
@@ -13,9 +14,14 @@ import shop from "@/app/assets/img/shop.png";
 import drop from "@/app/assets/img/drop.png";
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
   return (
     <>
-      <div className="flex justify-around py-1">
+      <div className="flex justify-around py-1 gap-5">
         <div>
           <p className="font-poppins text-white text-[14px]">
             Welcome to the best TRoo Organic Grocery Store
@@ -29,35 +35,36 @@ const Navbar = () => {
         <div className="flex gap-2">
           <p className="font-poppins text-white text-[14px]">Follow Us On</p>
           <p className="text-white text-[14px]">------</p>
-          <div className=" bg-black inline f-back">
-            <Image src={facebook} className="mt-1" />
+          <div className=" bg-black inline  w-8 h-8  f-back">
+            <Image src={facebook} className="mt-2 ml-2" />
           </div>
-          <div className=" inline i-back">
-            <Image src={insta} className="mt-1" />
+          <div className=" inline  w-8 h-8  i-back">
+            <Image src={insta} className="mt-2 ml-2" />
           </div>
-          <div className=" inline i-back">
-            <Image src={linkedin} className="mt-1" />
+          <div className=" inline  w-8 h-8  i-back">
+            <Image src={linkedin} className="mt-2 ml-2" />
           </div>
-          <div className=" inline i-back">
-            <Image src={twitter} className="mt-1" />
+          <div className=" inline  w-8 h-8  i-back">
+            <Image src={twitter} className="mt-2 ml-2" />
           </div>
         </div>
       </div>
-      <div className="bg-white mx-1 py-5 px-20 flex justify-between h-[82px]">
-        <div className="flex gap-3 justify-center items-center">
+      <div className="bg-white mx-1 p-5 flex flex-wrap justify-between gap-10">
+        <div className="flex items-center gap-3">
           <Link href="/">
             <Image
               src={logo}
               className="cursor-pointer"
-              width={"59"}
-              height={"59"}
+              width={59}
+              height={59}
+              alt="Logo"
             />
           </Link>
           <p className="font-poppins text-[#EF682E] text-[28px] font-[275]">
             <b className="text-[#609E45] font-[700]">Organic</b>Grocery
           </p>
         </div>
-        <div className="input-border ml-28">
+        <div className="input-border ml-28 xl:inline-flex">
           <input
             type="text"
             placeholder="Search Your Products"
@@ -67,7 +74,7 @@ const Navbar = () => {
             Search
           </button>
         </div>
-        <div className="flex gap-10">
+        <div className="md:flex hidden gap-10">
           <div className="flex gap-2">
             <Image src={call} />
             <div>
@@ -75,18 +82,48 @@ const Navbar = () => {
               <p className=" text-[#609E45] font-bold">+44 123 456 7890</p>
             </div>
           </div>
-          <div className="flex gap-2">
+          <div className="flex gap-2 ">
             <Image src={mail} />
             <div>
               <p className="font-[16px]">Email Us</p>
-              <p className="font-bold text-[#609E45]">info@troothemes.com</p>
+              <p className="font-bold flex flex-wrap text-[#609E45] ">info@troothemes.com</p>
             </div>
           </div>
         </div>
       </div>
-      <div className="bg-white mx-1 flex py-5 px-20 justify-between">
-        <div>
-          <ul className="flex gap-7 mt-1">
+      {menuOpen ? (
+        <div className="md:hidden bg-white flex items-center justify-end mx-1">
+          <button onClick={toggleMenu} className="text-white focus:outline-none">
+            <svg
+              className="h-6 w-6 text-black"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+
+      ) : (
+        <div className={` ${menuOpen ? 'hidden' : 'block'} md:hidden bg-white mx-1 flex items-center justify-end pr-2`}>
+          <button onClick={toggleMenu} className="text-white focus:outline-none">
+            <svg
+              className="h-6 w-6 text-black"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+          </button>
+        </div>
+      )}
+      <div className={`bg-white mx-1 md:flex py-5 px-20 justify-between ${menuOpen ? 'block' : 'hidden'}`}>
+        <div >
+          <ul className="flex flex-wrap gap-7 mt-1">
             <li>
               <Link href="/">Home</Link>
             </li>

@@ -23,10 +23,10 @@ export default function Blog() {
         <div className="flex flex-col text-center items-center gap-8 pt-32">
           <button className="bg-[#609E45] text-white px-3 rounded-md font-poppins w-44">Latest News & Blogs</button>
           <p className="w-[356px] font-bold text-[#EF682E] text-4xl">Most Popular News & Top Blogs</p>
-          <div className="flex gap-5 items-center justify-center ">
+          <div className="flex gap-5 flex-wrap items-center justify-center ">
             <div>
               <div className="h-[512px] flex flex-col justify-around items-center text-left border border-[#ffb595] hover:border-[#EF682E] px-2 rounded-md relative">
-                <Image src={blog1} className=" rounded-md opacity-35" />
+                <Image src={blog1} className=" rounded-md opacity-35 w-[389px] h-[273px]" />
                 <div>
                   <p className="text-xl font-bold w-[354px] mb-3">Reasons to Include Organic Fennel in Your Diet</p>
                   <p className="text-base w-[359px]">Lorem ipsum dolor sit nad amet, consectetur adipiscing elit.</p>
@@ -34,12 +34,11 @@ export default function Blog() {
                 <div className="flex gap-2 pr-28">
                   <Image src={user} />
                   <p>Johnson doe</p>
+                  <p>|</p>
                   <Image src={clock} />
                   <p>08 Jan, 2023</p>
                 </div>
-                <Link href="/blogdetail">
-                  <Image src={icon} className="absolute top-32" />
-                </Link>
+                <Image src={icon} className="absolute top-32" />
               </div>
             </div>
 
@@ -54,6 +53,7 @@ export default function Blog() {
                 <div className="flex gap-2 pr-28">
                   <Image src={user} />
                   <p>Johnson doe</p>
+                  <p>|</p>
                   <Image src={clock} />
                   <p>08 Jan, 2023</p>
                 </div>
@@ -68,6 +68,7 @@ export default function Blog() {
                 <div className="flex gap-2 pr-28">
                   <Image src={user} />
                   <p>Johnson doe</p>
+                  <p>|</p>
                   <Image src={clock} />
                   <p>08 Jan, 2023</p>
                 </div>
@@ -86,6 +87,7 @@ export default function Blog() {
                 <div className="flex gap-2 pr-28">
                   <Image src={user} />
                   <p>Johnson doe</p>
+                  <p>|</p>
                   <Image src={clock} />
                   <p>08 Jan, 2023</p>
                 </div>
@@ -100,6 +102,8 @@ export default function Blog() {
                 <div className="flex gap-2 pr-28">
                   <Image src={user} />
                   <p>Johnson doe</p>
+                  <p>|</p>
+
                   <Image src={clock} />
                   <p>08 Jan, 2023</p>
                 </div>
@@ -113,8 +117,8 @@ export default function Blog() {
           </Link>
 
         </div>
-        <div className="flex justify-center mt-20">
-          <div className="flex justify-between flex-col">
+        <div className="flex justify-center mt-20 flex-wrap gap-10">
+          <div className="flex justify-between flex-col pl-10">
             <button className="bg-[#609E45] text-white px-3 rounded-md font-poppins w-44">Our Trusted Partner</button>
             <p className="text-4xl font-bold text-[#EF682E] w-[385px]">We have 523+ more trusted partner</p>
             <p className="w-[408px]">There are many variations of passages of Lorem Ipsum available, but the majority.</p>
@@ -137,8 +141,8 @@ export default function Blog() {
             </div>
           </div>
         </div>
-        <Image src={gro} className="absolute top-0" />
-        <Image src={person2} className="absolute right-0 bottom-0" />
+        <Image src={gro} className="absolute top-0 hidden md:block " />
+        <Image src={person2} className="absolute right-0 bottom-0 hidden lg:w-[150px] lg:h-[150px] 2xl:w-[310px] 2xl:h-[310px]" />
       </div>
     </div>
   )

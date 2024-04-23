@@ -56,7 +56,7 @@
 
 .input-border {
   border: 1px solid #EF682E33;
-  display: inline-block;
+  display: none;
   height: 50px;
   border-radius: 8px;
 }
@@ -113,6 +113,19 @@
   border-color: #609E45;
 }
 #box:hover #btn{
+  display: inline-flex;
+  
+}
+#box1{
+  background: white;
+  border-radius: 5px;
+  
+}
+#box1:hover{
+ 
+  border-color: #609E45;
+}
+#box1:hover #btn1{
   display: inline-flex;
   
 }
