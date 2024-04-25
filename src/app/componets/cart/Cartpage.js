@@ -25,12 +25,12 @@ function Cartpage() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center gap-5 rounded-md">
+      <div className="flex flex-wrap justify-center gap-5 rounded-md">
         <div>
-          <div className="h-[298px] w-[857px] bg-gray-100 p-10 rounded-md mb-5">
+          <div className="lg:h-[298px] flex flex-col flex-wrap lg:w-[857px] bg-gray-100 p-10 rounded-md mb-5">
             <div className="flex justify-between">
               <p className="text-lg font-semibold">Product Name</p>
-              <div className="flex gap-10">
+              <div className="flex gap-1 lg:gap-10">
                 <p className="text-lg font-semibold">Price</p>
                 <p className="text-lg font-semibold">Quantity</p>
                 <p className="text-lg font-semibold">Subtotal</p>
@@ -38,15 +38,15 @@ function Cartpage() {
             </div>
             <hr />
             <div className="flex justify-between">
-              <div className="flex  items-center gap-5">
+              <div className="flex  flex-wrap items-center gap-5">
                 <p className="text-[#DD4C4C] border-2 border-[#DD4C4C] rounded-[50%] w-5 h-5 pl-1 pb-6">
                   x
                 </p>
                 <Image src={p1} height={"76"} width={"76"} />
-                <p>Fresh Organic Mango</p>
+                <p className="flex flex-wrap">Fresh Organic Mango</p>
               </div>
 
-              <div className="flex gap-12 items-center">
+              <div className="flex gap-1 lg:gap-12 items-center">
                 <p>$20.00</p>
                 <p>
                   <select className=" bg-gray-100 w-[82px] h-[60px] rounded-md outline-none border">
@@ -59,15 +59,15 @@ function Cartpage() {
               </div>
             </div>
             <div className="flex justify-between">
-              <div className="flex  items-center gap-5">
+              <div className="flex flex-wrap items-center gap-5">
                 <p className="text-[#DD4C4C] border-2 border-[#DD4C4C] rounded-[50%] w-5 h-5 pl-1 pb-6">
                   x
                 </p>
                 <Image src={p2} height={"76"} width={"76"} />
-                <p>Fresh Organic Cabbage</p>
+                <p className="flex flex-wrap">Fresh Organic Cabbage</p>
               </div>
 
-              <div className="flex gap-12 items-center">
+              <div className="flex gap-1 lg:gap-12 items-center">
                 <p>$40.00</p>
                 <p>
                   <select className=" bg-gray-100 w-[82px] h-[60px] rounded-md outline-none border">
@@ -80,7 +80,7 @@ function Cartpage() {
               </div>
             </div>
           </div>
-          <div className="flex gap-5">
+          <div className="flex flex-wrap p-5 gap-5">
             <input
               type="text"
               placeholder="Coupon Code"
@@ -91,14 +91,14 @@ function Cartpage() {
             </button>
           </div>
         </div>
-        <div className="w-[413px] bg-gray-100 p-8">
+        <div className="sm:w-[413px] bg-gray-100 p-8">
           <h1 className="font-bold text-lg ">Cart totals</h1>
           <hr />
           <div className="flex justify-between py-3">
             <p>Subtotal</p>
             <p>$60.00</p>
           </div>
-          <div className="w-[361px] h-[182px] bg-white rounded-md flex flex-col justify-around p-5 ">
+          <div className="sm:w-[361px] h-[182px] bg-white rounded-md flex flex-col justify-around p-5 ">
             <h1 className="font-semibold">Shipping</h1>
             <div className="flex justify-between">
               <p>Flat rate</p>
@@ -117,16 +117,19 @@ function Cartpage() {
             <p>Grand Total</p>
             <p>$70.00</p>
           </div>
-          <Link href="/checkout">
-            <button className="w-[361px] h-[50px] bg-[#609E45] text-white text-center rounded-md mb-5">
-              Proceed to checkout
-            </button>
-          </Link>
-          <Link href="/ourproducts">
-            <button className="w-[361px] h-[50px] bg-black text-white text-center rounded-md">
-              Continue Shopping
-            </button>
-          </Link>
+          <div className="flex gap-5 sm:flex-col">
+            <Link href="/checkout">
+              <button className="sm:w-[361px] h-[50px] bg-[#609E45] text-white text-center rounded-md mb-5">
+                Proceed to checkout
+              </button>
+            </Link>
+            <Link href="/ourproducts">
+              <button className="sm:w-[361px] h-[50px] bg-black text-white text-center rounded-md">
+                Continue Shopping
+              </button>
+            </Link>
+          </div>
+
 
         </div>
       </div>

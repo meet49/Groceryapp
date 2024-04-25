@@ -32,20 +32,20 @@ const Navbar = () => {
             <b>50% </b>Clearance Sale
           </p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-2 ">
           <p className="font-poppins text-white text-[14px]">Follow Us On</p>
           <p className="text-white text-[14px]">------</p>
-          <div className=" bg-black inline  w-8 h-8  f-back">
-            <Image src={facebook} className="mt-2 ml-2" />
+          <div className=" bg-black inline w-2 h-2 lg:w-8 lg:h-8  f-back">
+            <Image src={facebook} className="lg:mt-2 lg:ml-2" />
           </div>
-          <div className=" inline  w-8 h-8  i-back">
-            <Image src={insta} className="mt-2 ml-2" />
+          <div className=" inline w-2 h-2 lg:w-8 lg:h-8  i-back">
+            <Image src={insta} className="lg:mt-2 lg:ml-2" />
           </div>
-          <div className=" inline  w-8 h-8  i-back">
-            <Image src={linkedin} className="mt-2 ml-2" />
+          <div className=" inline w-2 h-2 lg:w-8 lg:h-8  i-back">
+            <Image src={linkedin} className="lg:mt-2 lg:ml-2" />
           </div>
-          <div className=" inline  w-8 h-8  i-back">
-            <Image src={twitter} className="mt-2 ml-2" />
+          <div className=" inline w-2 h-2 lg:w-8 lg:h-8  i-back">
+            <Image src={twitter} className="lg:mt-2 lg:ml-2" />
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
             placeholder="Search Your Products"
             className="w-[500px] p-3"
           />
-          <button className="w-[85px] h-[40px] rounded-md bg-[#EF682E] text-white mr-1">
+          <button className="w-[85px] h-[40px] rounded-md bg-[#EF682E] text-white mr-1 mt-1">
             Search
           </button>
         </div>
@@ -163,7 +163,10 @@ const Navbar = () => {
             <Image src={wish} className="cursor-pointer" />
           </Link>
           <Link href="/cart">
-            <Image src={shop} className="cursor-pointer" />
+            <div className="relative  flex ">
+              <Image src={shop} className="cursor-pointer " />
+              <span class="animate-ping absolute  right-1 top-1 h-3 w-3 rounded-full bg-[#609E45] opacity-75"></span>
+            </div>
           </Link>
         </div>
       </div>

@@ -5,8 +5,8 @@ import men from '@/app/assets/img/men.png'
 function Banner() {
   return (
     <div>
-      <div className=" bg-white mx-1 h-[287px]  bg-[url('../app/assets/img/bg2.png')] bg-no-repeat static">
-        <div className="absolute top-[212px]">
+     <div className=" bg-white mx-1 h-[287px]  bg-[url('../app/assets/img/bg2.png')] bg-no-repeat bg-cover relative">
+        <div className="absolute bottom-0 md:w-[268px] md:h-[268px] h-[160px] w-[160px]">
           <Image src={men} height={"268"} />
         </div>
         <div className="h-[442px] flex flex-col pt-24 items-center left-80 bottom-52">

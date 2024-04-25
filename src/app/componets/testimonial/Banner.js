@@ -16,8 +16,8 @@ import t11 from '@/app/assets/img/t6.png'
 function Banner() {
   return (
     <div>
-      <div className=" bg-white mx-1 h-[287px]  bg-[url('../app/assets/img/bg2.png')] bg-no-repeat static">
-        <div className="absolute top-[212px]">
+      <div className=" bg-white mx-1 h-[287px]  bg-[url('../app/assets/img/bg2.png')] bg-no-repeat bg-cover relative">
+        <div className="absolute bottom-0 md:w-[268px] md:h-[268px] h-[160px] w-[160px]">
           <Image src={men} height={"268"} />
         </div>
         <div className="h-[442px] flex flex-col pt-24 items-center left-80 bottom-52">
@@ -30,7 +30,7 @@ function Banner() {
 
       </div>
       <div className="bg-white">
-        <div className="flex justify-center gap-8 pt-10 ">
+        <div className="flex justify-center flex-wrap gap-8 pt-10 px-28 pb-10 xl:px-36 ">
           <div className='flex flex-col justify-around items-center text-center w-[381px] h-[451px] border-8 border-[#f7f0f0] hover:border-[#609E45] rounded-md'>
             <Image src={t1} />
             <p className="w-[333px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized.</p>
@@ -60,8 +60,7 @@ function Banner() {
               <p>Customer</p>
             </div>
           </div>
-        </div>
-        <div className="flex justify-center gap-8 pt-10">
+        
           <div className='flex flex-col justify-around items-center text-center w-[381px] h-[451px] border-8 border-[#f7f0f0] hover:border-[#609E45] rounded-md'>
             <Image src={t3} />
             <p className="w-[333px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized.</p>
@@ -91,8 +90,7 @@ function Banner() {
               <p>Customer</p>
             </div>
           </div>
-        </div>
-        <div className="flex justify-center gap-8 mt-10 pb-10">
+        
           <div className='flex flex-col justify-around items-center text-center w-[381px] h-[451px] border-8 border-[#f7f0f0] hover:border-[#609E45] rounded-md'>
             <Image src={t3} />
             <p className="w-[333px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized.</p>

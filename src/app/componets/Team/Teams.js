@@ -14,9 +14,9 @@ import twitter from "@/app/assets/img/twitter.png"
 function Teams() {
     return (
         <>
-            <div className="bg-white grid grid-cols-3 p-20 px-60 pl-60 gap-10">
-                <div className="bg-gray-50 w-[412px] h-[579px] flex flex-col pt-10 relative">
-                    <Image src={t1} width={"368"} height={"456"} className="pl-10" />
+            <div className="bg-white grid lg:grid-cols-2 lg:px-40 xl:grid-cols-3 xl:px-20 place-items-center 2xl:px-60  pt-10 gap-10">
+                <div className="bg-gray-50 2xl:w-[412px] h-[579px] flex flex-col pt-10 relative">
+                    <Image src={t1} width={"368"} height={"456"} className="px-10" />
                     <div className="w-[202.54px] h-[53.65px] bg-[#609E45] rounded-md absolute bottom-36 left-[100px]  opacity-0 hover:opacity-100">
                         <div className="flex gap-2 justify-center items-center pt-4">
                             <div className=" bg-black inline f-back w-[27px] h-[27px]">
@@ -38,8 +38,8 @@ function Teams() {
                         <p className="text-center">CEO and Founder</p>
                     </div>
                 </div>
-                <div className="bg-gray-50 w-[412px] h-[579px] flex flex-col pt-10 relative">
-                    <Image src={t2} width={"368"} height={"456"} className="pl-10 " />
+                <div className="bg-gray-50 2xl:w-[412px] h-[579px] flex flex-col pt-10 relative">
+                    <Image src={t2} width={"368"} height={"456"} className="px-10 " />
                     <div className="w-[202.54px] h-[53.65px] bg-[#609E45] rounded-md absolute bottom-36 left-[100px]  opacity-0 hover:opacity-100">
                         <div className="flex gap-2 justify-center items-center pt-4">
                             <div className=" bg-black inline f-back w-[27px] h-[27px]">
@@ -61,8 +61,8 @@ function Teams() {
                         <p className="text-center">Co-Founder</p>
                     </div>
                 </div>
-                <div className="bg-gray-50 w-[412px] h-[579px] flex flex-col pt-10 relative">
-                    <Image src={t3} width={"368"} height={"456"} className="pl-10 " />
+                <div className="bg-gray-50 2xl:w-[412px] h-[579px] flex flex-col pt-10 relative">
+                    <Image src={t3} width={"368"} height={"456"} className="px-10 " />
                     <div className="w-[202.54px] h-[53.65px] bg-[#609E45] rounded-md absolute bottom-36 left-[100px]  opacity-0 hover:opacity-100">
                         <div className="flex gap-2 justify-center items-center pt-4">
                             <div className=" bg-black inline f-back w-[27px] h-[27px]">
@@ -84,8 +84,8 @@ function Teams() {
                         <p className="text-center">Manager</p>
                     </div>
                 </div>
-                <div className="bg-gray-50 w-[412px] h-[579px] flex flex-col pt-10 relative">
-                    <Image src={t4} width={"368"} height={"456"} className="pl-10 " />
+                <div className="bg-gray-50 2xl:w-[412px] h-[579px] flex flex-col pt-10 relative">
+                    <Image src={t4} width={"368"} height={"456"} className="px-10 " />
                     <div className="w-[202.54px] h-[53.65px] bg-[#609E45] rounded-md absolute bottom-36 left-[100px]  opacity-0 hover:opacity-100">
                         <div className="flex gap-2 justify-center items-center pt-4">
                             <div className=" bg-black inline f-back w-[27px] h-[27px]">
@@ -107,8 +107,8 @@ function Teams() {
                         <p className="text-center">Accountant</p>
                     </div>
                 </div>
-                <div className="bg-gray-50 w-[412px] h-[579px] flex flex-col pt-10 relative">
-                    <Image src={t5} width={"368"} height={"456"} className="pl-10 " />
+                <div className="bg-gray-50 2xl:w-[412px] h-[579px] flex flex-col pt-10 relative">
+                    <Image src={t5} width={"368"} height={"456"} className="px-10 " />
                     <div className="w-[202.54px] h-[53.65px] bg-[#609E45] rounded-md absolute bottom-36 left-[100px]  opacity-0 hover:opacity-100">
                         <div className="flex gap-2 justify-center items-center pt-4">
                             <div className=" bg-black inline f-back w-[27px] h-[27px]">
@@ -130,8 +130,8 @@ function Teams() {
                         <p className="text-center">Store Keeper</p>
                     </div>
                 </div>
-                <div className="bg-gray-50 w-[412px] h-[579px] flex flex-col pt-10 relative">
-                    <Image src={t6} width={"368"} height={"456"} className="pl-10 " />
+                <div className="bg-gray-50 2xl:w-[412px] h-[579px] flex flex-col pt-10 relative">
+                    <Image src={t6} width={"368"} height={"456"} className="px-10 " />
                     <div className="w-[202.54px] h-[53.65px] bg-[#609E45] rounded-md absolute bottom-36 left-[100px]  opacity-0 hover:opacity-100">
                         <div className="flex gap-2 justify-center items-center pt-4">
                             <div className=" bg-black inline f-back w-[27px] h-[27px]">

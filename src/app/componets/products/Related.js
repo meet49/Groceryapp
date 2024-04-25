@@ -7,10 +7,10 @@ import p8 from '@/app/assets/img/pro7.png'
 
 function Related() {
     return (
-        <div className="bg-white flex flex-col justify-center p-10 pl-64">
-            <p className="font-semibold pl-5">Related Product</p>
+        <div className="bg-white flex flex-col justify-center p-10 items-center">
+            <p className="font-semibold pl-5 ">Related Product</p>
             <p className="font-bold text-[#609E45] pl-5">____</p>
-            <div className="flex justify-center gap-6 pb-12 w-[1299px] py-10 px-5">
+            <div className="flex justify-center flex-wrap xl:flex-nowrap gap-6 pb-12 xl:w-[1299px] py-10 px-5">
 
                 <div className="h-[463px] border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md">
                     <div className="flex justify-center mt-2 mx-2">

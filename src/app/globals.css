@@ -122,8 +122,7 @@
   
 }
 #box1:hover{
- 
-  border-color: #609E45;
+ border: 1px solid #609E45;
 }
 #box1:hover #btn1{
   display: inline-flex;

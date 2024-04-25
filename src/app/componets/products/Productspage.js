@@ -16,7 +16,7 @@ import Link from 'next/link';
 
 function Productspage() {
     return (
-        <div className="flex justify-center bg-white gap-5">
+        <div className="flex justify-center bg-white gap-5 2xl:px-72 flex-wrap-reverse xl:flex-nowrap pb-10 ">
             <div>
                 <div className="w-[303px] h-[299px] bg-gray-100 flex flex-col justify-between rounded-md p-5 mb-8">
                     <h1 className="font-semibold text-xl text-[#609E45]">Cart</h1>
@@ -81,7 +81,7 @@ function Productspage() {
                 </div>
             </div>
             <div>
-                <div className="w-[967px] h-[66px] bg-gray-100 flex justify-between items-center px-5 rounded-md">
+                <div className="xl:w-[967px] mx-5 h-[66px] bg-gray-100 flex justify-between items-center px-5 rounded-md">
                     <p>Showing Products 1-12 Of 199 Result</p>
                     <div>
                         <p className="inline-block">Sort by</p>
@@ -89,7 +89,7 @@ function Productspage() {
                     </div>
                 </div>
                 <div className="p-3">
-                    <div className="flex justify-center gap-6 pb-12">
+                    <div className="flex flex-wrap justify-center gap-6 pb-12 ">
 
                         <div className="h-[463px] border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md" id="box">
                             <div className="flex justify-center mt-2 mx-2">
@@ -107,7 +107,7 @@ del text-gray-400">$10.00</del><p>$05.00</p> </pre>
 
                         </div>
 
-                        <div className="h-[463px] border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md"  id="box">
+                        <div className="h-[463px] border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md" id="box">
                             <div className="flex justify-center mt-2">
                                 <Image src={p2} className=" h-[307px] bg-gray-100 mx-2" />
                             </div>
@@ -118,11 +118,11 @@ del text-gray-400">$12.00</del><p>$07.00</p> </pre>
                                 <h1 className="text-center text-yellow-400 mb-2 font-bold text-xl ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
                             </div>
                             <Link href="/cart">
-                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
+                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
                             </Link>
                         </div>
 
-                        <div className="h-[463px]   border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md"  id="box">
+                        <div className="h-[463px]   border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md" id="box">
                             <div className="flex justify-center mt-2">
                                 <Image src={p1} className=" h-[307px] bg-gray-100 mx-2" />
                             </div>
@@ -133,14 +133,12 @@ del text-gray-400">$15.00</del><p>$15.00</p> </pre>
                                 <h1 className="text-center text-yellow-400 mb-2 font-bold text-xl">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
                             </div>
                             <Link href="/cart">
-                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
+                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
                             </Link>
                         </div>
 
-                    </div>
-                    <div className="flex justify-center gap-6 pb-12">
 
-                        <div className="h-[463px] border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md"  id="box">
+                        <div className="h-[463px] border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md" id="box">
                             <div className="flex justify-center mt-2 mx-2">
                                 <Image src={p5} className=" h-[307px] bg-gray-100" />
                             </div>
@@ -151,11 +149,11 @@ del text-gray-400">$12.00</del><p>$07.00</p> </pre>
                                 <h1 className="text-center text-yellow-400 mb-2 font-bold text-xl">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
                             </div>
                             <Link href="/cart">
-                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
+                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px]  justify-center gap-2 items-center cursor-pointer hidden " id="btn"><Image src={cart} />Add to Cart</button>
                             </Link>
                         </div>
 
-                        <div className="h-[463px] border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md"  id="box">
+                        <div className="h-[463px] border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md" id="box">
                             <div className="flex justify-center mt-2">
                                 <Image src={p6} className=" h-[307px] bg-gray-100 mx-2" />
                             </div>
@@ -166,11 +164,11 @@ del text-gray-400">$15.00</del><p>$15.00</p> </pre>
                                 <h1 className="text-center text-yellow-400 mb-2 font-bold text-xl ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
                             </div>
                             <Link href="/cart">
-                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer hidden " id="btn"><Image src={cart} />Add to Cart</button>
+                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] hidden justify-center gap-2 items-center cursor-pointer  " id="btn"><Image src={cart} />Add to Cart</button>
                             </Link>
                         </div>
 
-                        <div className="h-[463px]   border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md"  id="box">
+                        <div className="h-[463px]   border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md" id="box">
                             <div className="flex justify-center mt-2">
                                 <Image src={p7} className=" h-[307px] bg-gray-100 mx-2" />
                             </div>
@@ -181,14 +179,11 @@ del text-gray-400">$15.00</del><p>$15.00</p> </pre>
                                 <h1 className="text-center text-yellow-400 mb-2 font-bold text-xl">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
                             </div>
                             <Link href="/cart">
-                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
+                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] hidden justify-center gap-2 items-center cursor-pointer " id="btn"><Image src={cart} />Add to Cart</button>
                             </Link>
                         </div>
 
-                    </div>
-                    <div className="flex justify-center gap-6 pb-12">
-
-                        <div className="h-[463px] border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md"  id="box">
+                        <div className="h-[463px] border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md" id="box">
                             <div className="flex justify-center mt-2 mx-2">
                                 <Image src={p8} className=" h-[307px] bg-gray-100" />
                             </div>
@@ -199,11 +194,11 @@ del text-gray-400">$12.00</del><p>$07.00</p> </pre>
                                 <h1 className="text-center text-yellow-400 mb-2 font-bold text-xl">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
                             </div>
                             <Link href="/cart">
-                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
+                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] hidden justify-center gap-2 items-center cursor-pointer " id="btn"><Image src={cart} />Add to Cart</button>
                             </Link>
                         </div>
 
-                        <div className="h-[463px] border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md"  id="box">
+                        <div className="h-[463px] border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md" id="box">
                             <div className="flex justify-center mt-2">
                                 <Image src={p4} className=" h-[307px] bg-gray-100 mx-2" />
                             </div>
@@ -214,11 +209,11 @@ del text-gray-400">$15.00</del><p>$15.00</p> </pre>
                                 <h1 className="text-center text-yellow-400 mb-2 font-bold text-xl ">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
                             </div>
                             <Link href="/cart">
-                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
+                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] hidden justify-center gap-2 items-center cursor-pointer " id="btn"><Image src={cart} />Add to Cart</button>
                             </Link>
                         </div>
 
-                        <div className="h-[463px]   border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md"  id="box">
+                        <div className="h-[463px]   border-[1px] relative border-[#609E4533] hover:border-[#609E45] rounded-md" id="box">
                             <div className="flex justify-center mt-2">
                                 <Image src={p9} className=" h-[307px] bg-gray-100 mx-2" />
                             </div>
@@ -229,13 +224,13 @@ del text-gray-400">$15.00</del><p>$15.00</p> </pre>
                                 <h1 className="text-center text-yellow-400 mb-2 font-bold text-xl">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
                             </div>
                             <Link href="/cart">
-                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] flex justify-center gap-2 items-center cursor-pointer hidden" id="btn"><Image src={cart} />Add to Cart</button>
+                                <button className="w-[150px] h-[50px] rounded-md bg-[#609E45] text-white mr-1 absolute left-20 bottom-[-20px] text-center text-[16px] hidden justify-center gap-2 items-center cursor-pointer " id="btn"><Image src={cart} />Add to Cart</button>
                             </Link>
                         </div>
 
                     </div>
                 </div>
-                <div className="flex justify-end pb-10">
+                <div className=" hidden xl:flex justify-end pb-10">
                     <div className="bg-gray-100 flex w-[216px] h-[50px] rounded-md justify-center items-center gap-2">
                         <p className="w-[30px] h-[30px] hover:bg-[#609E45] hover:shadow-sm hover:shadow-[#609E4533] hover:text-white hover:rounded-md text-center pt-1">1</p>
                         <p className="w-[30px] h-[30px] hover:bg-[#609E45] hover:shadow-sm hover:shadow-[#609E4533] hover:text-white hover:rounded-md text-center pt-1">2</p>

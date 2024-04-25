@@ -7,7 +7,7 @@ import location from '@/app/assets/img/location.png'
 function Info() {
     return (
         <div>
-            <div className="flex  gap-5 pb-9 bg-white justify-center pt-8">
+            <div className="flex flex-wrap px-5 gap-5 pb-9 bg-white justify-center pt-8">
                 <div className="flex gap-2 w-[413px] h-[121px] border rounded-md hover:border-[#a4b99ac1] hover:shadow-sm ">
                     <Image src={call} className="bg-[#a4b99ac1] rounded-md p-3 m-5" width={"50"}/>
                     <div className="mt-5">
@@ -28,7 +28,7 @@ function Info() {
                     <Image src={location} className="bg-[#a4b99ac1] rounded-md p-3 m-5"  width={"50"}/>
                     <div className="mt-5">
                         <p className="font-[16px] ">Our Location</p>
-                        <p className="font-bold w-[292px]">4516 School Street, Danbury,
+                        <p className="font-bold ">4516 School Street, Danbury,
                             CT, Canada, 458068</p>
                     </div>
                 </div>

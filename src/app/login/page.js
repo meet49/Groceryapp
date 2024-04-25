@@ -4,18 +4,18 @@ function Login() {
     return (
         <div >
             <div className="bg-[url('../app/assets/img/bg12.png')] bg-no-repeat bg-gray-100 py-20">
-                <div className="flex justify-center">
+                <div className="flex justify-center flex-wrap gap-5">
                     <div className="bg-[url('../app/assets/img/bg14.png')] bg-no-repeat w-[615px] h-[566px]">
                     </div>
                     <div>
-                        <div className="w-[685px] h-[566px] bg-white flex flex-col gap-5 p-10 rounded-md">
+                        <div className="xl:w-[685px] h-[566px] bg-white flex flex-col gap-5 p-10 rounded-md justify-center">
                             <h1 className="font-bold text-2xl ">Welcome back</h1>
                             <p>A whole new online shopping journey start right here.</p>
                             <p className="font-bold text-[#609E45]">_____</p>
                             <div className="flex flex-col  gap-6">
 
 
-                                <div className="flex flex-col w-[585px] gap-3">
+                                <div className="flex flex-col xl:w-[585px] gap-3">
                                     <lable>Email </lable>
                                     <input
                                         type="text"
@@ -24,7 +24,7 @@ function Login() {
                                     ></input>
                                 </div>
 
-                                <div className="flex flex-col w-[585px] gap-3">
+                                <div className="flex flex-col xl:w-[585px] gap-3">
                                     <lable>Password</lable>
                                     <input
                                         type="password"
@@ -40,7 +40,7 @@ function Login() {
                                     </div>
                                     <p>Forgot password</p>
                                 </div>
-                                <button className="w-[585px] h-[60px] bg-[#609E45] text-white rounded-md font-semibold text-xl">Login Now</button>
+                                <button className="xl:w-[585px] h-[60px] bg-[#609E45] text-white rounded-md font-semibold text-xl">Login Now</button>
 
                             </div>
                         </div>

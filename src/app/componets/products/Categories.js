@@ -12,11 +12,11 @@ function Categories() {
     return (
         <>
             <div className="bg-white p-20 ">
-                <div className="bg-white  pl-56 pb-10">
+                <div className="bg-white pb-10">
                     <p className="font-bold text-xl">Shop by categories</p>
                     <p className="text-[#609E45] font-bold">_____</p>
                 </div>
-                <div className="flex justify-center gap-5 ">
+                <div className="flex flex-wrap justify-center gap-5 ">
                         <div className="w-[192px] h-[250px] bg-white flex flex-col justify-center items-center relative border rounded-md border-[#609E4533] hover:border-[#609E45]">
                         <Image src={p1} />
                         <p className="font-bold">Vegetable</p>

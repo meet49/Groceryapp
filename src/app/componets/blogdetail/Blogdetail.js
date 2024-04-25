@@ -16,31 +16,31 @@ import twitter from "@/app/assets/img/twitter1.png"
 
 function Blogdetail() {
     return (
-        <div className="bg-white flex justify-center gap-10 pt-10">
-            <div className="flex flex-col justify-between">
-                <Image src={blog10} width={"968"} height={"443"} className="relative"/>
-                <p className="w-[672px] h-[60px] bg-white absolute bottom-4 left-80 pt-5 pl-5 rounded-md">Date: 23 Janm, 2022  |  Posted By: Adam Cole  | Tags: Grocery, Vegetable, Fruits</p>
-                <h1 className="font-bold font-poppins text-4xl pt-10">Reasons to Include Organic Fennel in Your Diet</h1>
-                <div className="flex flex-col gap-2 pt-8">
+        <div className="bg-white flex flex-wrap justify-center gap-8 pt-10">
+            <div className="flex flex-col justify-between items-center">
+                <Image src={blog10}className="relative 2xl:w-[968px] 2xl:h-[443px] "/>
+                <p className="2xl:w-[672px] h-[60px] bg-white absolute hidden 2xl:block 2xl:bottom-4 2xl:left-80 pt-5 pl-5 rounded-md">Date: 23 Janm, 2022  |  Posted By: Adam Cole  | Tags: Grocery, Vegetable, Fruits</p>
+                <h1 className="font-bold font-poppins text-4xl pt-10 px-10">Reasons to Include Organic Fennel in Your Diet</h1>
+                <div className="flex flex-col gap-2 pt-8 items-center justify-center px-10">
 
-                    <p className="w-[968px] text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  what is Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into is this electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrasetis this  sheets containing Lorem Ipsum passages, and more recently with Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    <p className="w-[968px] text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  what is Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is of type and scrambled it to make a type specimen book.</p>
+                    <p className="2xl:w-[968px] text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  what is Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into is this electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrasetis this  sheets containing Lorem Ipsum passages, and more recently with Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p className="2xl:w-[968px] text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  what is Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is of type and scrambled it to make a type specimen book.</p>
                 </div>
-                <div className="flex justify-between mt-5 pt-10">
+                <div className="flex 2xl:justify-between  gap-10 justify-center 2xl:flex-nowrap flex-wrap mt-5 pt-10">
                     <Image src={blog8} width={"413"} height={"424"} />
-                    <Image src={blog7} width={"525"} height={"424"} />
+                    <Image src={blog7} width={"413"} height={"424"} />
                 </div>
-                <p className="w-[968px] text-justify pt-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  what is Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap.</p>
-                <div className="flex flex-col gap-2 pt-10">
+                <p className="2xl:w-[968px] text-justify pt-8 justify-center px-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  what is Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap.</p>
+                <div className="flex flex-col gap-2 pt-10 justify-center px-10">
                     <h1 className="text-xl font-bold">Any Test Style  Here</h1>
-                    <p className="w-[968px] text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  what is Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into is this electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrasetis this  sheets containing Lorem Ipsum passages, and more recently with Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p className="2xl:w-[968px] text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  what is Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into is this electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrasetis this  sheets containing Lorem Ipsum passages, and more recently with Aldus PageMaker including versions of Lorem Ipsum.</p>
                 </div>
 
-                <div className="flex gap-20 pt-8">
+                <div className="flex gap-20 pt-8 px-5 flex-wrap pl-10 2xl:pl-0">
                     <div>
                         <div className="flex gap-5 mb-3">
                             <Image src={i2} height={"22"} width={"22"} className="bg-[#d4ffc1] rounded-full" />
-                            <p className="w[468px]">Emergency response time is one hour</p>
+                            <p className="2xl:w[468px]">Emergency response time is one hour</p>
                         </div>
                         <div className="flex gap-5 mb-3">
                             <Image src={i2} height={"22"} width={"22"} className="bg-[#d4ffc1] rounded-full" />
@@ -58,7 +58,7 @@ function Blogdetail() {
                     <div>
                         <div className="flex gap-5 mb-3">
                             <Image src={i2} height={"22"} width={"22"} className="bg-[#d4ffc1] rounded-full" />
-                            <p className="w[468px]">Emergency response time</p>
+                            <p className="2xl:w[468px]">Emergency response time</p>
                         </div>
                         <div className="flex gap-5 mb-3">
                             <Image src={i2} height={"22"} width={"22"} className="bg-[#d4ffc1] rounded-full" />
@@ -74,8 +74,8 @@ function Blogdetail() {
                         </div>
                     </div>
                 </div>
-                <p className="w-[968px] text-justify pt-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. what is Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap.</p>
-                <div className="flex w-[967px] h-[60px] bg-gray-100 items-center pl-10 mt-10 rounded-md">
+                <p className="2xl:w-[968px] text-justify pt-10 justify-center px-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. what is Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap.</p>
+                <div className="flex 2xl:w-[967px] h-[60px] bg-gray-100 items-center pl-10 mt-10 rounded-md">
                     <p className="pr-5">Share this Article</p>
                     <div className="flex h-[20px]">
                         <div className=" bg-black inline f-back w-5 pl-1 mr-2">
@@ -97,16 +97,16 @@ function Blogdetail() {
                 <div className="h-[768px] pt-8">
                     <div className="bg-gray-100 flex flex-col gap-5 p-10">
                         <div className="flex flex-col gap-5">
-                            <div className="flex flex-col w-[867px] gap-2">
+                            <div className="flex flex-col 2xl:w-[867px] gap-2">
                                 <lable>Full Name</lable>
                                 <input type="text" placeholder="Full Name" className="h-[60px] rounded-md border hover:border-[#609E45] outline-none pl-3 bg-gray-100"></input>
                             </div>
-                            <div className="flex flex-col w-[867px] gap-2 ">
+                            <div className="flex flex-col 2xl:w-[867px] gap-2 ">
                                 <lable>Phone Number</lable>
                                 <input type="text" placeholder="Phone Number" className="h-[60px] rounded-md border hover:border-[#609E45] outline-none pl-3 bg-gray-100"></input>
                             </div>
                         </div>
-                        <div className="flex flex-col gap-5 w-[867px] ">
+                        <div className="flex flex-col gap-5 2xl:w-[867px] ">
                             <div className="flex flex-col gap-2 ">
                                 <lable>Email Address</lable>
                                 <input type="text" placeholder="Enter your Email" className="h-[60px] rounded-md border hover:border-[#609E45] outline-none pl-3 bg-gray-100"></input>
@@ -120,7 +120,7 @@ function Blogdetail() {
                     </div>
                 </div>
             </div>
-            <div >
+            <div className="flex flex-wrap gap-5  2xl:flex-wrap 2xl:flex-col px-10 justify-center 2xl:justify-start pb-10">
                 <div className="h-[466px] w-[302px] bg-gray-100 font-poppins pl-10 pt-5 flex flex-col justify-between pb-5 rounded-md">
                     <h1 className="text-[#609E45] font-bold text-xl">Categories</h1>
                     <hr />

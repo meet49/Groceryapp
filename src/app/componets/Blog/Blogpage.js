@@ -17,7 +17,7 @@ import icon from '@/app/assets/img/icon.png'
 function Blogpage() {
   return (
     <div className="bg-white flex flex-col gap-5 py-20">
-      <div className="flex gap-5 items-center justify-center ">
+      <div className="flex gap-5 items-center justify-center flex-wrap  pt-10 px-28 pb-10 xl:px-36">
         <div>
           <div className="h-[512px] flex flex-col justify-around items-center text-left border border-[#ffb595] hover:border-[#EF682E] px-2 rounded-md relative">
             <Image src={blog1} className=" rounded-md opacity-35" />
@@ -32,7 +32,7 @@ function Blogpage() {
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
-              <Image src={icon} className="absolute top-32" />
+            <Image src={icon} className="absolute top-32" />
           </div>
         </div>
 
@@ -62,7 +62,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
-                  <p>|</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -96,7 +96,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
-                  <p>|</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -104,8 +104,6 @@ function Blogpage() {
           </div>
         </div>
 
-      </div>
-      <div className="flex gap-5 items-center justify-center ">
         <div>
           <div id="firstDiv3" className="h-[512px] flex flex-col justify-around items-center border text-left border-[#ffb595] hover:border-[#EF682E] px-2 rounded-md">
             <Image src={blog4} />
@@ -117,7 +115,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
-                  <p>|</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -132,7 +130,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
-                  <p>|</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -151,7 +149,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
-                  <p>|</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -166,7 +164,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
-                  <p>|</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -185,7 +183,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
-                  <p>|</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -200,7 +198,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
-                  <p>|</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -208,8 +206,6 @@ function Blogpage() {
           </div>
         </div>
 
-      </div>
-      <div className="flex gap-5 items-center justify-center ">
         <div>
           <div id="firstDiv3" className="h-[512px] flex flex-col justify-around items-center border text-left border-[#ffb595] hover:border-[#EF682E] px-2 rounded-md">
             <Image src={blog7} />
@@ -221,7 +217,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
-                  <p>|</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -236,7 +232,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
-                  <p>|</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -255,7 +251,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
-                  <p>|</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -270,7 +266,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
-                  <p>|</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -289,7 +285,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
-                  <p>|</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>
@@ -304,7 +300,7 @@ function Blogpage() {
             <div className="flex gap-2 pr-28">
               <Image src={user} />
               <p>Johnson doe</p>
-                  <p>|</p>
+              <p>|</p>
               <Image src={clock} />
               <p>08 Jan, 2023</p>
             </div>

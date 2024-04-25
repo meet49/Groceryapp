@@ -23,13 +23,13 @@ function Checkoutpage() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center gap-6">
-        <div className="w-[857px] h-[1006px] bg-gray-100 flex flex-col gap-5 p-10 rounded-md">
+      <div className="flex flex-wrap justify-center gap-6 pb-10">
+        <div className="lg:w-[857px] 2xl:h-[1006px] bg-gray-100 flex flex-col gap-5 p-10 rounded-md">
           <h1 className="font-semibold text-xl">Billing details</h1>
           <hr />
           <div className="flex flex-col  gap-6">
-            <div className="flex gap-5">
-              <div className="flex flex-col w-[383px] gap-3">
+            <div className="flex flex-col lg:flex-row gap-5">
+              <div className="flex flex-col lg:w-[383px] gap-3">
                 <lable>First Name</lable>
                 <input
                   type="text"
@@ -37,7 +37,7 @@ function Checkoutpage() {
                   className="h-[60px] rounded-md border hover:border-[#609E4533] outline-none pl-3 bg-gray-100"
                 ></input>
               </div>
-              <div className="flex flex-col w-[383px] gap-3">
+              <div className="flex flex-col lg:w-[383px] gap-3">
                 <lable>Last Name</lable>
                 <input
                   type="text"
@@ -47,8 +47,8 @@ function Checkoutpage() {
               </div>
             </div>
 
-            <div className="flex gap-5">
-              <div className="flex flex-col w-[383px] gap-3">
+            <div className="flex flex-col lg:flex-row gap-5">
+              <div className="flex flex-col lg:w-[383px] gap-3">
                 <lable>Phone Number</lable>
                 <input
                   type="text"
@@ -56,7 +56,7 @@ function Checkoutpage() {
                   className="h-[60px] rounded-md border hover:border-[#609E4533] outline-none pl-3 bg-gray-100"
                 ></input>
               </div>
-              <div className="flex flex-col w-[383px] gap-3">
+              <div className="flex flex-col lg:w-[383px] gap-3">
                 <lable>Email Address</lable>
                 <input
                   type="text"
@@ -66,8 +66,8 @@ function Checkoutpage() {
               </div>
             </div>
 
-            <div className="flex gap-5">
-              <div className="flex flex-col w-[383px] gap-3">
+            <div className="flex flex-col lg:flex-row  gap-5">
+              <div className="flex flex-col lg:w-[383px] gap-3">
                 <lable>Country / Region</lable>
                 <input
                   type="text"
@@ -75,7 +75,7 @@ function Checkoutpage() {
                   className="h-[60px] rounded-md border hover:border-[#609E4533] outline-none pl-3 bg-gray-100"
                 ></input>
               </div>
-              <div className="flex flex-col w-[383px] gap-3">
+              <div className="flex flex-col lg:w-[383px] gap-3">
                 <lable>Street address</lable>
                 <input
                   type="text"
@@ -85,8 +85,8 @@ function Checkoutpage() {
               </div>
             </div>
 
-            <div className="flex gap-5">
-              <div className="flex flex-col w-[383px] gap-3">
+            <div className="flex flex-col lg:flex-row  gap-5">
+              <div className="flex flex-col lg:w-[383px] gap-3">
                 <lable>Town / City</lable>
                 <input
                   type="text"
@@ -94,7 +94,7 @@ function Checkoutpage() {
                   className="h-[60px] rounded-md border hover:border-[#609E4533] outline-none pl-3 bg-gray-100"
                 ></input>
               </div>
-              <div className="flex flex-col w-[383px] gap-3">
+              <div className="flex flex-col lg:w-[383px] gap-3">
                 <lable>State</lable>
                 <input
                   type="text"
@@ -104,8 +104,8 @@ function Checkoutpage() {
               </div>
             </div>
 
-            <div className="flex gap-5">
-              <div className="flex flex-col w-[383px] gap-3 ">
+            <div className="flex flex-col lg:flex-row gap-5">
+              <div className="flex flex-col lg:w-[383px] gap-3 ">
                 <lable>ZIP Code</lable>
                 <input
                   type="text"
@@ -113,7 +113,7 @@ function Checkoutpage() {
                   className="h-[60px] rounded-md border hover:border-[#609E4533] outline-none pl-3 bg-gray-100"
                 ></input>
               </div>
-              <div className="flex flex-col w-[383px] gap-3">
+              <div className="flex flex-col lg:w-[383px] gap-3">
                 <lable>Company Name (optional)</lable>
                 <input
                   type="text"
@@ -140,7 +140,9 @@ function Checkoutpage() {
             </div>
           </div>
         </div>
-        <div className="w-[413px] h-[895px] bg-gray-100 p-9 flex flex-col justify-between rounded-md">
+
+
+        <div className="ms:w-[413px] h-[895px] bg-gray-100 p-10 mx-5  flex flex-col justify-between rounded-md">
           <h1 className="font-bold text-xl">Your order</h1>
           <hr />
           <p className="font-semibold text-base">Product</p>
@@ -158,7 +160,7 @@ function Checkoutpage() {
             <p>Subtotal</p>
             <p>$498.00</p>
           </div>
-          <div className="w-[361px] h-[182px] bg-white rounded-md flex flex-col justify-around p-5 ">
+          <div className="ms:w-[361px] h-[182px] bg-white rounded-md flex flex-col justify-around ms:p-5 ">
             <h1 className="font-semibold">Shipping</h1>
             <div className="flex justify-between">
               <p>Flat rate</p>
@@ -191,17 +193,17 @@ function Checkoutpage() {
             <p className="inline font-semibold pl-2">Cash on delivery</p>
           </div>
           <Link href="thankyou">
-            <button className="w-[361px] h-[50px] bg-[#609E45] text-white rounded-md">Place Order</button>
+            <button className="ms:w-[361px] h-[50px] bg-[#609E45] text-white rounded-md">Place Order</button>
           </Link>
 
         </div>
       </div>
-      <div className="bg-[#fee2d6] flex flex-col justify-center items-center text-center h-[350px] mt-20">
+      <div className="bg-[#fee2d6] flex flex-col justify-center items-center text-center py-10 lg:h-[350px] ">
         <p className="font-bold text-4xl mb-5">Subscribe to newsletter</p>
-        <p className="w-[599px] text-base mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy tex</p>
-        <div className="w-[765px] flex justify-between">
+        <p className="lg:w-[599px] text-base mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy tex</p>
+        <div className="lg:w-[765px] flex lg:justify-between gap-5 justify-center flex-wrap">
           <input type="text" placeholder="Your Name" className="bg-[#fee2d6] border-[#ffac88] border h-[60px] w-[175px]  rounded-md p-2" />
-          <input type="email" placeholder="Enter Your Email" className="bg-[#fee2d6] border-[#ffac88] border h-[60px] w-[380px] rounded-md p-2" />
+          <input type="email" placeholder="Enter Your Email" className="bg-[#fee2d6] border-[#ffac88] border h-[60px] lg:w-[380px] rounded-md p-2" />
           <button className="p-2 h-[60px] w-[150px] border bg-[#609E45] text-white rounded-md font-poppins font-semibold text-base">Subscribe Now</button>
         </div>
       </div>
