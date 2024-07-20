@@ -26,7 +26,7 @@ function Productdetails() {
           </div>
           <h1 className="text-2xl font-bold">Fresh Yellow Orange </h1>
           <b className="text-2xl"><del className="font-normal text-base">$10.00 </del>$08.00</b>
-          <p className="text-justify lg:w-[725px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, words which don't look even slightly believable.There are many.</p>
+          <p className="text-justify lg:w-[725px]">{`There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, words which don't look even slightly believable.There are many.`}</p>
           <hr />
           <div className='flex flex-wrap  gap-5'>
             <div className="flex flex-col w-[60px]">

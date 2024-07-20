@@ -200,7 +200,7 @@ function Checkoutpage() {
       </div>
       <div className="bg-[#fee2d6] flex flex-col justify-center items-center text-center py-10 lg:h-[350px] ">
         <p className="font-bold text-4xl mb-5">Subscribe to newsletter</p>
-        <p className="lg:w-[599px] text-base mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy tex</p>
+        <p className="lg:w-[599px] text-base mb-5">{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy tex`}</p>
         <div className="lg:w-[765px] flex lg:justify-between gap-5 justify-center flex-wrap">
           <input type="text" placeholder="Your Name" className="bg-[#fee2d6] border-[#ffac88] border h-[60px] w-[175px]  rounded-md p-2" />
           <input type="email" placeholder="Enter Your Email" className="bg-[#fee2d6] border-[#ffac88] border h-[60px] lg:w-[380px] rounded-md p-2" />

@@ -11,7 +11,7 @@ function Form() {
                     <div className="flex flex-wrap gap-20">
                         <p className="w-[560px] font-bold text-4xl text-[#EF682E]">Don’t hasitate to contact us
                             if you need more help</p>
-                        <p className="w-[600px] h-[69px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                        <p className="w-[600px] h-[69px]">{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                     </div>
                 </div>
                 <div className="bg-white flex flex-col justify-center p-10 m-16 xl:mx-72 xl:p-24 gap-5">

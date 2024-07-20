@@ -96,7 +96,7 @@ function Queastion() {
             <button>How do I Claim a Free Coupon?</button>
             <Image src={drop} className="w-[23.14px] h-6 mt-4 mr-5" />
         </div>
-        <p style={{ display: showText1 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+        <p style={{ display: showText1 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
     </div>
 
     return (
@@ -110,35 +110,35 @@ function Queastion() {
                                 <button>How do I Claim a Free Coupon?</button>
                                 <Image src={drop} className="w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText1 ? 'block' : 'none' }} className="p-5 text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText1 ? 'block' : 'none' }} className="p-5 text-justify">{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                         <div className="flex flex-col md:w-[635px]">
                             <div className="flex justify-between md:w-[635px] pl-5 h-[62px] border border-[#EF682E33]" onClick={toggleText2} style={{ backgroundColor: showText2 ? '#609E45' : 'white', color: showText2 ? 'white' : 'black' }}>
                                 <button>How do I Make a regular Table Booking?</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText2 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText2 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                         <div className="flex flex-col md:w-[635px]">
                             <div className="flex justify-between md:w-[635px] pl-5 h-[62px] border border-[#EF682E33]" onClick={toggleText3} style={{ backgroundColor: showText3 ? '#609E45' : 'white', color: showText3 ? 'white' : 'black' }}>
-                                <button>How can I be certain my booking's been received?</button>
+                                <button>{`How can I be certain my booking's been received?`}</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText3 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText3 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                         <div className="flex flex-col md:w-[635px]">
                             <div className="flex justify-between md:w-[635px] pl-5 h-[62px] border border-[#EF682E33]" onClick={toggleText4} style={{ backgroundColor: showText4 ? '#609E45' : 'white', color: showText4 ? 'white' : 'black' }}>
-                                <button>What happens if I'm running late?</button>
+                                <button>{`What happens if I'm running late?`}</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText4 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText4 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                         <div className="flex flex-col md:w-[635px] ">
                             <div className="flex justify-between h-[62px] pl-5 border border-[#EF682E33]" onClick={toggleText5} style={{ backgroundColor: showText5 ? '#609E45' : 'white', color: showText5 ? 'white' : 'black' }}>
                                 <button>Why do you need my email address?</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText5 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText5 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                     </div>
 
@@ -149,35 +149,35 @@ function Queastion() {
                                 <button>How do I Claim a Free Coupon?</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText6 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText6 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                         <div className="flex flex-col md:w-[635px]">
                             <div className="flex justify-between md:w-[635px] pl-5 h-[62px] border border-[#EF682E33]" onClick={toggleText7} style={{ backgroundColor: showText7 ? '#609E45' : 'white', color: showText7 ? 'white' : 'black' }}>
                                 <button>How do I Make a regular Table Booking?</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText7 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText7 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                         <div className="flex flex-col md:w-[635px]">
                             <div className="flex justify-between md:w-[635px] pl-5 h-[62px] border border-[#EF682E33]" onClick={toggleText8} style={{ backgroundColor: showText8 ? '#609E45' : 'white', color: showText8 ? 'white' : 'black' }}>
-                                <button>How can I be certain my booking's been received?</button>
+                                <button>{`How can I be certain my booking's been received?`}</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText8 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText8 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                         <div className="flex flex-col md:w-[635px]">
                             <div className="flex justify-between md:w-[635px] pl-5 h-[62px] border border-[#EF682E33]" onClick={toggleText9} style={{ backgroundColor: showText9 ? '#609E45' : 'white', color: showText9 ? 'white' : 'black' }}>
-                                <button>What happens if I'm running late?</button>
+                                <button>{`What happens if I'm running late?`}</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText9 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText9 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                         <div className="flex flex-col md:w-[635px] ">
                             <div className="flex justify-between h-[62px] pl-5 border border-[#EF682E33]" onClick={toggleText10} style={{ backgroundColor: showText10 ? '#609E45' : 'white', color: showText10 ? 'white' : 'black' }}>
                                 <button>Why do you need my email address?</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText10 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText10 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                     </div>
                 </div>
@@ -190,35 +190,35 @@ function Queastion() {
                                 <button>How do I Claim a Free Coupon?</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText11 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText11 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                         <div className="flex flex-col md:w-[635px]">
                             <div className="flex justify-between md:w-[635px] pl-5 h-[62px] border border-[#EF682E33]" onClick={toggleText12} style={{ backgroundColor: showText12 ? '#609E45' : 'white', color: showText12 ? 'white' : 'black' }}>
                                 <button>How do I Make a regular Table Booking?</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText12 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText12 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                         <div className="flex flex-col md:w-[635px]">
                             <div className="flex justify-between md:w-[635px] pl-5 h-[62px] border border-[#EF682E33]" onClick={toggleText13} style={{ backgroundColor: showText13 ? '#609E45' : 'white', color: showText13 ? 'white' : 'black' }}>
-                                <button>How can I be certain my booking's been received?</button>
+                                <button>{`How can I be certain my booking's been received?`}</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText13 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText13 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                         <div className="flex flex-col md:w-[635px]">
                             <div className="flex justify-between md:w-[635px] pl-5 h-[62px] border border-[#EF682E33]" onClick={toggleText14} style={{ backgroundColor: showText14 ? '#609E45' : 'white', color: showText14 ? 'white' : 'black' }}>
-                                <button>What happens if I'm running late?</button>
+                                <button>{`What happens if I'm running late`}?</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText14 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText14 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                         <div className="flex flex-col md:w-[635px] ">
                             <div className="flex justify-between h-[62px] pl-5 border border-[#EF682E33]" onClick={toggleText15} style={{ backgroundColor: showText15 ? '#609E45' : 'white', color: showText15 ? 'white' : 'black' }}>
                                 <button>Why do you need my email address?</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText15 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText15 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                     </div>
 
@@ -229,41 +229,41 @@ function Queastion() {
                                 <button>How do I Claim a Free Coupon?</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText16 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText16 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                         <div className="flex flex-col md:w-[635px]">
                             <div className="flex justify-between md:w-[635px] pl-5 h-[62px] border border-[#EF682E33]" onClick={toggleText17} style={{ backgroundColor: showText17 ? '#609E45' : 'white', color: showText17 ? 'white' : 'black' }}>
                                 <button>How do I Make a regular Table Booking?</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText17 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText17 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                         <div className="flex flex-col md:w-[635px]">
                             <div className="flex justify-between md:w-[635px] pl-5 h-[62px] border border-[#EF682E33]" onClick={toggleText18} style={{ backgroundColor: showText18? '#609E45' : 'white', color: showText18 ? 'white' : 'black' }}>
-                                <button>How can I be certain my booking's been received?</button>
+                                <button>{`How can I be certain my booking's been received?`}</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText18 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText18 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text`}.</p>
                         </div>
                         <div className="flex flex-col md:w-[635px]">
                             <div className="flex justify-between md:w-[635px] pl-5 h-[62px] border border-[#EF682E33]" onClick={toggleText19} style={{ backgroundColor: showText19 ? '#609E45' : 'white', color: showText19 ? 'white' : 'black' }}>
-                                <button>What happens if I'm running late?</button>
+                                <button>{`What happens if I'm running late?`}</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText19 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText19 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                         <div className="flex flex-col md:w-[635px] ">
                             <div className="flex justify-between h-[62px] pl-5 border border-[#EF682E33]" onClick={toggleText20} style={{ backgroundColor: showText20 ? '#609E45' : 'white', color: showText20 ? 'white' : 'black' }}>
                                 <button>Why do you need my email address?</button>
                                 <Image src={drop} className="md:w-[23.14px] h-6 mt-4 mr-5" />
                             </div>
-                            <p style={{ display: showText20 ? 'block' : 'none' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.</p>
+                            <p style={{ display: showText20 ? 'block' : 'none' }}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy abd text ever since. dummy text.`}</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="text-center h-[104.4px] flex justify-center items-center bg-white">
-                <p className="flex text-base gap-1">Don’t find your answer? <b className="text-[#609E45] flex font-bold text-xl gap-1"> Contact us <Image src={arrow} className="w-[33.39px]" /></b></p>
+                <p className="flex text-base gap-1">{`Don’t find your answer?`} <b className="text-[#609E45] flex font-bold text-xl gap-1"> Contact us <Image src={arrow} className="w-[33.39px]" /></b></p>
             </div>
         </div>
     )

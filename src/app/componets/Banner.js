@@ -17,7 +17,7 @@ function Banner() {
         <div className=" lg:h-[442px] lg:w-[606px] flex flex-col justify-between p-5 sm:w-[650px] 2xl:absolute 2xl:left-80 2xl:bottom-52">
           <button className="bg-[#609E45] text-white px-3 rounded-md font-poppins w-52">We are more then faster</button>
           <p className="text-[60px] font-bold text-[#609E45]">The right store  with The right Price</p>
-          <p className="text-[20px] lg:w-[550px]">Lorem ipsum dolor sit amen, consectetur adipescent alit, sed do eiusmod tempor incident ut labored et dolore magna aliquant. Et ejecta's quiz.</p>
+          <p className="text-[20px] lg:w-[550px]">{`Lorem ipsum dolor sit amen, consectetur adipescent alit, sed do eiusmod tempor incident ut labored et dolore magna aliquant. Et ejecta's quiz.`}</p>
           <button className="w-[118px] h-[40px] rounded-md bg-[#EF682E] text-white mr-1">Shop Now</button>
         </div>
         <div className="relative md:absolute md:left-0 md:top-96  lg:right-0 lg:top-0 lg:p-96 2xl:bottom-0 2xl:p-0 2xl:top-20">

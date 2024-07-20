@@ -13,7 +13,7 @@ function Banner() {
           <p className="text-[24px] font-bold text-[#609E45]">Do You Have Any Question?</p>
           <div>
             <p className="text-[16px] inline-block ">Home -</p>
-            <p className="text-[16px] text-[#EF682E] inline-block">FAQ’s</p>
+            <p className="text-[16px] text-[#EF682E] inline-block">{`FAQ’s`}</p>
           </div>
         </div>
 
