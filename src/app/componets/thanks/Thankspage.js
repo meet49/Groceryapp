@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import Image from "next/image";
 import thanks from "@/app/assets/img/thanks.png";

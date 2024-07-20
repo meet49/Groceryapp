@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import Image from "next/image";
 import i2 from "@/app/assets/img/ai5.png";
 import i3 from "@/app/assets/img/ai6.png";

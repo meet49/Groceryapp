@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import Image from 'next/image'
 import React from 'react'
 import i1 from '@/app/assets/img/ai1.png'

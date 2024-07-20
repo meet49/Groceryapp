@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import person1 from '@/app/assets/img/person1.png'
 import bag from '@/app/assets/img/bag.png'

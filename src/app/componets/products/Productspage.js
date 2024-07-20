@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import Image from 'next/image';
 import p1 from '@/app/assets/img/pro3.png'

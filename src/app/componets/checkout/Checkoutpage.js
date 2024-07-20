@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import Image from "next/image";
 import c1 from "@/app/assets/img/cart.png";

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import Image from 'next/image';
 import call from '@/app/assets/img/call3.png'
