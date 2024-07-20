@@ -14,7 +14,7 @@ import logo5 from '@/app/assets/img/logo5.png'
 import logo6 from '@/app/assets/img/logo6.png'
 import person2 from '@/app/assets/img/person2.png'
 import gro from '@/app/assets/img/groceryd.png'
-import icon from '@/app/assets/img/icon.png'
+import icon from '@/app/assets/img/Icon.png'
 import Link from 'next/link';
 
 export default function Blog() {

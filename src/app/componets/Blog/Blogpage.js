@@ -13,7 +13,7 @@ import blog8 from '@/app/assets/img/blog8.png'
 import blog9 from '@/app/assets/img/blog9.png'
 import clock from '@/app/assets/img/clock.png'
 import user from '@/app/assets/img/user.png'
-import icon from '@/app/assets/img/icon.png'
+import icon from '@/app/assets/img/Icon.png'
 
 function Blogpage() {
   return (
