@@ -7,7 +7,7 @@ import facebook from "@/app/assets/img/facebook.png"
 import insta from "@/app/assets/img/instagram1.png"
 import linkedin from "@/app/assets/img/linkedin1.png"
 import twitter from "@/app/assets/img/twitter1.png"
-import logo from '@/app/assets/img/LOGO.png'
+import logo from '@/app/assets/img/Logo.png'
 import user from '@/app/assets/img/user1.png'
 
 function Coming() {

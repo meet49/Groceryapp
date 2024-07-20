@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import Image from 'next/image';
-import logo from '@/app/assets/img/LOGO.png'
+import logo from '@/app/assets/img/Logo.png'
 
 function Signup() {
     return (
